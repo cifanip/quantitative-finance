@@ -43,7 +43,7 @@ Let $\\{ \theta(t) \\}\_{t \ge 0} \in \mathcal{C}^0[\mathcal{F}\_W(t)]$ satisfy 
 Consider the stochastic process $\\{ \widetilde{W}(t) \\}\_{t \ge 0}$
 
 $$
-\widetile{W}(t) = W(t) + \int_0^t \theta(s) ds. \qquad (1.3)
+\widetilde{W}(t) = W(t) + \int_0^t \theta(s) ds. \qquad (1.3)
 $$
 
 Then $\\{ \widetilde{W}(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-Brownian motion. 
