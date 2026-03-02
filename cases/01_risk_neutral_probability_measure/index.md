@@ -37,7 +37,7 @@ $$
 is a martingale relative to the filtration $\\{ \mathcal{F}(t)\_{t ge 0} \\}$. 
 
 ### Girsanov's theorem
-Let $\\{ \theta(t) \\}\_{t \ge 0}$ satisfy condition (1.1). It follows from theorem Theorem 1
+Let $\\{ \theta(t) \\}\_{t \ge 0} \in \mathcal{C}^0[\mathcal{F}\_W(t)]$ satisfy condition (1.1). It follows from theorem Theorem 1 that process (1.2) is a martingale relative to the filtration $\\{\mathcal{F}\_W(t) \\}\_{t ge 0}$. 
 
 ### Arbitrage-free market
 
