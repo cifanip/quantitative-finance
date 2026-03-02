@@ -34,7 +34,7 @@ $$
 Z(t) = \exp \left( - \int_0^t \theta(s) dW(s) = \frac{1}{2} \int_0^t \theta(s)^2 ds \right) \qquad (1.2)
 $$
 
-is a martingale relative to the filtration $\\{ \mathcal{F}(t)\_{t ge 0} \\}$. 
+is a martingale relative to the filtration $\\{ \mathcal{F}(t)\_{t \ge 0} \\}$. 
 
 ### Girsanov's theorem
 Let $\\{ \theta(t) \\}\_{t \ge 0} \in \mathcal{C}^0[\mathcal{F}\_W(t)]$ satisfy condition (1.1). It follows from theorem Theorem 1 that process (1.2) is a martingale relative to the filtration $\\{\mathcal{F}\_W(t) \\}\_{t \ge 0}$. Then, by the martingale property, $\mathbb{E}[Z(t)]=\text{const}$ for all $t \ge 0$. But $Z(0)=1$, thus $\mathbb{E}[Z(t)]=1$ for all $t \ge 0$. Hence, one can use the stochastic process $\\{ Z(t) \\}\_{t \ge 0}$ to construct an equivalent probability measure $\widetilde{\mathbb{P}}$ to $\mathbb{P}$. 
