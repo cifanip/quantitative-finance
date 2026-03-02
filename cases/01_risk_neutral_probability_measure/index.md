@@ -11,7 +11,7 @@ To set up our analysis, we begin by assuming the probability space $(\Omega, \ma
 ### Martingale
 A central concept used in the following is the notion of a martingale. 
 
-**Definition 1 (Martingale).**  
+**Definition 1**  
 A stochastic process $\\{M(t)\\}\_{t \ge 0}$ is called a martingale with respect to the filtration $\\{\mathcal{F}(t)\\}\_{t \ge 0}$ if it is adapted to $\\{\mathcal{F}(t)\\}_{t \ge 0}$, $M(t)\in L^1(\Omega)$ for all $t\ge 0$, and
 
 $$
