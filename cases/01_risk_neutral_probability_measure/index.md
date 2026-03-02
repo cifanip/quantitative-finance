@@ -15,4 +15,4 @@ $$
 \mathbb{E}[M(t)\mid \mathcal{F}_s] = M(s), \qquad 0 \le s \le t, \qquad (1.0)
 $$
 
-for all $t \ge 0$. From this definzion is clear that given all the past informations contained in $\\{\mathcal{F}\\}_s$, the process $M(t)$ will neither rise nor fall on everage at future time $t$.  
+for all $t \ge 0$. From this definzion is clear that given all the past informations contained in $\\{\mathcal{F}}$ up to time $s$, the process $M(t)$ will neither rise nor fall on everage at future time $t$.  
