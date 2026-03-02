@@ -86,6 +86,6 @@ $$
 is a probability equivalent to $\mathbb{P}$. Furthermore, consider the discounted value $V^*(t) = D(t)V(t)$ at time $t$ where
 
 $$
-D(t) = \epx \left( - \int_0^t R(s)ds \right).
+D(t) = \exp \left( - \int_0^t R(s)ds \right).
 $$
 
