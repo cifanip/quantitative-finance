@@ -66,7 +66,7 @@ $$
 The portfolio $\\{h\_{S(t)},h\_{B(t)} \\}\_{t ge 0}$ is said to be self-financing if its value $V(t)$ satisfies
 
 $$
-dV(t) = h\_S(t) dS(t) + h\_B(t) dB(t). \qquad (1.4)
+dV(t) = h\_{S(t)} dS(t) + h\_{B(t)} dB(t). \qquad (1.4)
 $$
 
 That is, any change in value resulting from a variation in the number of shares held in the stock or the bond must offset each other. In other words, changes in $V(t)$ arise solely from changes in the values of the stock and the bond. 
