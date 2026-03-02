@@ -89,8 +89,8 @@ $$
 D(t) = \exp \left( - \int_0^t R(s)ds \right).
 $$
 
-**Theorem 3**
-
+\begin{theorem}
 If $\\{ h\_{S}(t),h\_{B}(t) \\}\_{t \ge 0}$ is a self-financing portfolio, then $\\{ h\_{S}(t),h\_{B}(t) \\}\_{t \ge 0}$ is not an arbitrage. 
+\end{theorem}
 
 
