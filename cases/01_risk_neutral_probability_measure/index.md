@@ -1,7 +1,2 @@
----
-layout: default
-title: Risk Neutral Probability Model
----
-
-## 1. Problem Statement
+## 1. Theory
 To be continued ...
