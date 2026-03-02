@@ -40,13 +40,13 @@ is a martingale relative to the filtration $\\{ \mathcal{F}(t)\_{t \ge 0} \\}$.
 Let $\\{ \theta(t) \\}\_{t \ge 0} \in \mathcal{C}^0[\mathcal{F}\_W(t)]$ satisfy condition (1.1). It follows from theorem Theorem 1 that process (1.2) is a martingale relative to the filtration $\\{\mathcal{F}\_W(t) \\}\_{t \ge 0}$. Then, by the martingale property, $\mathbb{E}[Z(t)]=\text{const}$ for all $t \ge 0$. But $Z(0)=1$, thus $\mathbb{E}[Z(t)]=1$ for all $t \ge 0$. Hence, one can use the stochastic process $\\{ Z(t) \\}\_{t \ge 0}$ to construct an equivalent probability measure $\widetilde{\mathbb{P}}$ to $\mathbb{P}$. 
 
 **Theorem 2**
-Consider the stochastic process $\\{ \widetile{W}(t) \\}\_{t \ge 0}$
+Consider the stochastic process $\\{ \widetilde{W}(t) \\}\_{t \ge 0}$
 
 $$
 \widetile{W}(t) = W(t) + \int_0^t \theta(s) ds. \qquad (1.3)
 $$
 
-Then $\\{ \widetile{W}(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-Brownian motion. 
+Then $\\{ \widetilde{W}(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-Brownian motion. 
 
 As a result we have that $\widetilde{\mathbb{E}}[\widetilde{W}(t)|\mathcal{F}\_W(s)] = \widetilde{W}(s)$, for $0 \le s \le t$. 
 
