@@ -6,6 +6,7 @@ A stochastic process $\\{M(t)\\}\_{t \ge 0}$ is called a martingale with respect
 
 $$
 \mathbb{E}[M(t)\mid \mathcal{F}_s] = M(s), \qquad 0 \le s \le t,
+\tag{1}
 $$
 
 for all $t \ge 0$.
