@@ -51,6 +51,15 @@ Then $\\{ \widetilde{W}(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-Brownia
 As a result we have that $\widetilde{\mathbb{E}}[\widetilde{W}(t)|\mathcal{F}\_W(s)] = \widetilde{W}(s)$, for $0 \le s \le t$. 
 
 ### Arbitrage-free market
-We consider now a 1+1 dimensional market, that is a portoflio made of $\\{h\_{S(t)},h\_{B(t)} \\}$ 
+We consider now a 1+1 dimensional market, that is a portoflio made of $\\{h\_{S(t)},h\_{B(t)} \\}$ shares of a stock $S(t)$ and of a bond $B(t)$. As is customary, the stock price $S(t)$ is assumed to evolve according to a geometric Brownian motion
 
+$$
+dS(t) = \mu(t)S(t)dt + \sigma(t) S(t) dW(t)
+$$
+
+and the bond price $B(t)$ follows the equation
+
+$$
+dB(t) = B(t)R(t)dt.
+$$
 
