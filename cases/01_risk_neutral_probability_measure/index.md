@@ -18,3 +18,8 @@ $$
 $$
 
 for all $t \ge 0$. From this defintion is clear that the process $M(t)$, conditioned on all the past informations up to time $s$, will on average neither rise nor fall on everage at future time $t$. 
+
+### 1. Arbitrage-free market
+
+
+
