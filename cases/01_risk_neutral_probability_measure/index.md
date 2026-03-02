@@ -77,5 +77,5 @@ $$
 \theta(t) = \frac{\mu(t) - R(t)}{\sigma(t)}
 $$
 
-and $\\{ Z(t) \\}\_{t ge 0}$ defined as in (1.2). 
+and $\\{ Z(t) \\}\_{t \ge 0}$ defined as in (1.2). 
 
