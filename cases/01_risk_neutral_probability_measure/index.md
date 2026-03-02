@@ -63,7 +63,7 @@ $$
 dB(t) = B(t)R(t)dt.
 $$
 
-The portfolio $\\{h\_{S(t)},h\_{B(t)} \\}\_{t ge 0}$ is said to be self-financing if its value $V(t)$ satisfies
+The portfolio $\\{ h\_{S}(t),h\_{B}(t) \\}\_{t ge 0}$ is said to be self-financing if its value $V(t)$ satisfies
 
 $$
 dV(t) = h_{S}(t) dS(t) + h_{B}(t) dB(t). \qquad (1.4)
