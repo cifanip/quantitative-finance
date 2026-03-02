@@ -8,6 +8,7 @@ layout: default
 ## 1. Theory
 To set up our analysis, we begin by assuming the probability space $(\Omega, \mathcal{F}, \mathbb{P})$ and the Brownian motion $\\{ W(t) \\}\_{t \ge 0}$ are given. 
 
+### Martingale
 A central concept used in the following is the notion of a martingale. 
 
 **Definition 1 (Martingale).**  
@@ -17,7 +18,7 @@ $$
 \mathbb{E}[M(t)\mid \mathcal{F}_s] = M(s), \qquad 0 \le s \le t, \qquad (1.0)
 $$
 
-for all $t \ge 0$. From this defintion is clear that the process $M(t)$, conditioned on all the past informations up to time $s$, will on average neither rise nor fall on everage at future time $t$. As it will be clear in the next sections, condition (1) is tightly linked to arbitrage-free markets.
+for all $t \ge 0$. From this defintion is clear that the process $M(t)$, conditioned on all the past informations up to time $s$, will on average neither rise nor fall on everage at future time $t$. As it will be clear in the next sections, condition (1.0) is tightly linked to arbitrage-free markets.
 
 ### Arbitrage-free market
 
