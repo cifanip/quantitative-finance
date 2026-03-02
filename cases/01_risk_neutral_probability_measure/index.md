@@ -83,5 +83,9 @@ $$
 \widetilde{\mathbb{P}}(A) = E[Z(T) \mathbb{I}_A], \qquad A \in \mathcal{F}
 $$
 
-is a probability equivalent to $\mathbb{P}$. 
+is a probability equivalent to $\mathbb{P}$. Furthermore, consider the discounted value $V^*(t) = D(t)V(t)$ at time $t$ where
+
+$$
+D(t) = \epx \left( - \int_0^t R(s)ds \right).
+$$
 
