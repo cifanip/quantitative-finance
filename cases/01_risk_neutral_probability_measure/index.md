@@ -20,6 +20,11 @@ $$
 
 for all $t \ge 0$. From this defintion is clear that the process $M(t)$, conditioned on all the past informations up to time $s$, will on average neither rise nor fall on everage at future time $t$. As it will be clear in the next sections, condition (1.0) is tightly linked to arbitrage-free markets.
 
+### Novikov's condition
+Let $\\{ \theta(t) \\}\_{t \ge 0} \in \mathcal{C}^0[\mathcal{F}(t)]$ satisfy
+
+### Girsanov's theorem
+
 ### Arbitrage-free market
 
 
