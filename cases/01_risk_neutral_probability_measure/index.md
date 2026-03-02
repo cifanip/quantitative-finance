@@ -1,7 +1,7 @@
 ## 1. Theory
 The central concept required for our analysis is the martingale. The precise definition is the following:
 
-**Definition 3.8 (Martingale).**  
+**Definition 1 (Martingale).**  
 A stochastic process ${M(t)}_{t\ge 0}$ is called a martingale with respect to the filtration ${\mathcal{F}_t}_{t\ge 0}$ if it is adapted to ${\mathcal{F}_t}_{t\ge 0}$, $M(t)\in L^1(\Omega)$ for all $t\ge 0$, and
 
 $$
