@@ -1,3 +1,8 @@
+---
+layout: default
+title: Risk Neutral Probability Model
+---
+
 ## 1. Theory
 The central concept required for our analysis is the martingale. The precise definition is the following:
 
