@@ -181,6 +181,14 @@ $$
 \end{aligned}
 $$
 
+Derving again with respet to $K$ we have
+
+$$
+\frac{\partial^2}{\partial K^2}\Pi(S,t) = p(K,T|S,t). \qquad (2.1)
+$$
+
+
+
 
 
 
