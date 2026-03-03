@@ -119,6 +119,6 @@ $$
 \widetilde{E}[V^*(t)] = 0. \qquad (1.7)
 $$
 
-Now, let $T>0$ such that $\mathbb{P}(V(T) \ge 0)=1$ and $\mathbb{P}(V(T) > 0) > 0$. Given that $\mathbb{P}$ and $\widetilde{\mathbb{P}}$ are equivalent we must have that $\widetilde{\mathbb{P}}(V(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V(T) > 0) > 0$. Furthermore, since $D(t)$ is positive we also have $\widetilde{\mathbb{P}}(V^*(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V^*(T) > 0) > 0$. However, this contradicts (1.7). Thus the portfolio is not an arbitrage. 
+Now, let $T>0$ such that $\mathbb{P}(V(T) \ge 0)=1$ and $\mathbb{P}(V(T) > 0) > 0$. Given that $\mathbb{P}$ and $\widetilde{\mathbb{P}}$ are equivalent we must have that $\widetilde{\mathbb{P}}(V(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V(T) > 0) > 0$. Furthermore, since $D(t)$ is positive we also have $\widetilde{\mathbb{P}}(V*(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V*(T) > 0) > 0$. However, this contradicts (1.7). Thus the portfolio is not an arbitrage. 
 
 
