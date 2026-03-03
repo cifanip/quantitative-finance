@@ -17,3 +17,6 @@ A cenetered Gaussian procces $B_t$ is defined to be a Fractional Brownian Motion
 $$
 \mathbb{E}[B_t B_s] = \frac{1}{2} \left( s^{2H}+t^{2H} - |t-s|^{2H} \right). \qquad (1.0)
 $$
+
+As for standard Brownian Motion, recovered for $H=1/2$, a self-similarity exists: for any constant $a>0$, the process $\\{ a^{-H}B_{at}\\}\_{t \ge 0}$ has the same distribution as the process $\\{ B_{t}\\}\_{t \ge 0}$. 
+
