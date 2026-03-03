@@ -175,7 +175,7 @@ where $p$ is the risk-neutral probability density and $Q = S(T)$. By taking the 
 
 $$
 \begin{aligned}
-\frac{\partial }{\partial K} \Pi(S,t) &= \frac{\partial }{\partial K} \int_K^{\infty}  p(Q,T | S,t) \left( Q - K \right) dQ \\
+e^{-R(T-t)} \frac{\partial }{\partial K} \Pi(S,t) &= \frac{\partial }{\partial K} \int_K^{\infty}  p(Q,T | S,t) \left( Q - K \right) dQ \\
 &=  \int_K^{\infty}  \frac{\partial }{\partial K} \left[ p(Q,T | S,t) \left( Q - K \right) \right] dQ - \left[ p(Q,T | S,t) \left( Q - K \right) \right]|_{Q=K} \cdot 1 \\
 &=  -\int_K^{\infty}  p(Q,T | S,t)  dQ,
 \end{aligned}
