@@ -122,6 +122,11 @@ $$
 Now, let $T>0$ such that $\mathbb{P}(V(T) \ge 0)=1$ and $\mathbb{P}(V(T) > 0) > 0$. Given that $\mathbb{P}$ and $\widetilde{\mathbb{P}}$ are equivalent we must have that $\widetilde{\mathbb{P}}(V(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V(T) > 0) > 0$. Furthermore, since $D(t)$ is positive we also have $\widetilde{\mathbb{P}}(V^\*(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V^\*(T) > 0) > 0$. However, this contradicts (1.7). Thus the portfolio is not an arbitrage. 
 
 ### European option pricing
+Consider a European option with pay-off $Y$ at maturity time $T>0$. Denote by $\Pi\_Y(t)$ the price of this derivative when sold at $t<T$. We make the following assumptions:
+
+1. the seller will only invest the premium $\Pi\_Y(t)$ in the $1+1$ dimensional market made of the underlysing stock and a bond.
+2. the portfolio is self-sinancing.
+
 
 
 
