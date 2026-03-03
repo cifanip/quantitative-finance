@@ -137,7 +137,7 @@ V(t) &= \frac{1}{D(t)} \widetilde{E}[D(T)V(T)|\mathcal{F}_W(t)] \\
 \end{aligned}
 $$
 
-where in the second line we used the fact that $D(t)$ is $\mathcal{F}\_W(t)$ measurable. 
+where in the second line we used the fact that $D(t)$ is $\mathcal{F}\_W(t)$ measurable. We now require the hedging condition $V(T)=Y$, that is the value of the seller portfolio is sufficient to pay off the buyer of the option at maturity time $T$. 
 
 
 
