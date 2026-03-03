@@ -32,7 +32,7 @@ $$
 \rho_H(n) = \frac{1}{2} \left( (n+1)^{2H} + (n-1)^{2H}-2n^{2H} \right). \qquad (1.2)
 $$
 
-By looking at the sign of $\rho_H(n)$ we discover that, two increments $B\_k-B\_{k-1}$ and $B\_{k+n}-B\_{k+n-1}$ are positively correlated if $H>1/2$ and negatively correlated if $H<1/2$. 
+By looking at the sign of $\rho_H(n)$ we discover that, two increments $B\_k-B\_{k-1}$ and $B\_{k+n}-B\_{k+n-1}$ are positively correlated if $H>1/2$ and negatively correlated if $H<1/2$. In trading language, the first case ($H>1/2$) corresponds to trend-following strategies where a positive increment in the past is more likely to be followed by another positive increment. The second case (H<1/2) naturally links to a contrarian regime. 
 
 
 
