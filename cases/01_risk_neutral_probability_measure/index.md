@@ -168,9 +168,10 @@ with $K$ the strike price, one can solve (1.9) analytically and arrive at the Bl
 With the abive assumptions given, Eq. (1.9) can be solved, for example for call options:
 
 $$
-\Pi(S(t),t) = e^{-R(T-t)} \int_K^\infty p(Q,T | S,t )(Q-K) dQ \qquad (2.0)
+\Pi(S(t),t) = e^{-R(T-t)} \int_K^\infty p(Q,T | S,t )(Q-K) dQ, \qquad (2.0)
 $$
 
+where $p$ is the risk-neutral probability density and $Q = S(T)$. 
 
 
 
