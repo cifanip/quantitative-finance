@@ -26,7 +26,7 @@ $$
 
 The process has then stationary increments and the scaling of their covariance can be computed numerically. This property is a ‘fingerprint’ of such processes. 
 
-Define the sequence $\\{X\_n, \ n \ge 1$ \\}$ with $X\_n = B\_n-B\_{n-1}$. Its covariance (stationary) function is [^2]:
+Define the sequence $\\{X\_n, \ n \ge 1 \\}$ with $X\_n = B\_n-B\_{n-1}$. Its covariance (stationary) function is [^2]:
 
 $$
 \rho_H(n) = \frac{1}{2} \left( (n+1)^{2H} + (n-1)^{2H}-2n^{2H} \right). \qquad (1.2)
