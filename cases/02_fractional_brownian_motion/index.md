@@ -20,3 +20,11 @@ $$
 
 As for standard Brownian Motion, recovered for $H=1/2$, a self-similarity exists: for any constant $a>0$, the process $\\{ a^{-H}B_{at}\\}\_{t \ge 0}$ has the same distribution as the process $\\{ B_{t}\\}\_{t \ge 0}$. This makes it appealing from a fincancial view-point, since it is often the case that time-series looked at different time-scales are found to be statistically equivalent. 
 
+From (1.0) one finds that
+
+$$
+\mathbb{E}[ (B_t-B_s)^2] = |t-s|^{2H} . \qquad (1.1)
+$$
+
+The process has then stationary increments and the scaling of their covariance can be computed numerically. This property is a ‘fingerprint’ of such processes. 
+
