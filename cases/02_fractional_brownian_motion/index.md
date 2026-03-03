@@ -8,8 +8,6 @@ layout: default
 Many phenomena in nature, most prominently the motion of particles suspended in a quiescent medium, are well described by standard Brownian Motion $B_t$. While this is a good approximation in several instances, studies on random processes, e.g. turbulent flows
 and financial time series, have shown strong interdependence between distant samples. To this aim an extension was put forward in the seminal paper of Mandelbrot, 1968, where long-range dependence is regulated by the Hurst exponent $H \in (0,1)$. In the following, some basic results about Fractional Brownian Motion (FBM) and Fractional Brownian Noise (FBN) are illustrated with a focus on its implications for high-frequencies trading strategies. A recent application of FBM driven partciles and transport dynamics can be found in [^1]
 
-[^1]: Cifani, P. and Flandoli, F., 2025. Diffusion Properties of Small-Scale Fractional Transport Models, Journal of Statistical Physics.
-
 ## 1. Theory
 
 A cenetered Gaussian procces $B_t$ is defined to be a Fractional Brownian Motion if its covariance matrix has the following form:
@@ -34,5 +32,10 @@ $$
 \rho_H(n) = \frac{1}{2} \left( (n+1)^{2H} + (n-1)^{2H}-2n^{2H} \right). \qquad (1.2)
 $$
 
+By looking at the sign of $\rho_H(n)$ we discover that, two increments $B_k-B_{k-1}$ and $B_{k+n}-B_{k+n-1}$ are positively correlated if $H>1/2$ and negatively correlated if $H<1/2$. 
+
+
+
+[^1]: Cifani, P. and Flandoli, F., 2025. Diffusion Properties of Small-Scale Fractional Transport Models, Journal of Statistical Physics.
 
 [^2]: Nualart, D., 2006. The Malliavin calculus and related topics. Berlin, Heidelberg: Springer Berlin Heidelberg.
