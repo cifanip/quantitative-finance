@@ -133,9 +133,11 @@ $$
 \begin{aligned}
 V(t) &= \frac{1}{D(t)} \widetilde{E}[D(T)V(T)|\mathcal{F}_W(t)] \\
 &= \widetilde{E}[\frac{D(T)}{D(t)}V(T)|\mathcal{F}_W(t)] \\
-&= \widetilde{E}[ \exp \left( -\int_t^T R(s) ds \right) V(T)|\mathcal{F}_W(t)]
+&= \widetilde{E}[ \exp \left( -\int_t^T R(s) ds \right) V(T)|\mathcal{F}_W(t)],
 \end{aligned}
 $$
+
+where in the second line we used the fact that $D(t)$ is $\mathcal{F}\_W(t)$ measurable. 
 
 
 
