@@ -101,5 +101,9 @@ $$
 dV^*(t) = D(t)h_S(t) S(t) \sigma(t) d\widetilde{W}(t).
 $$
 
-Thus, $\\{ V^*(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-martingale relative to the filtration $\\{ \mathcal{F}\_W(t) \\}\_{t \ge 0}$. Now, since $\widetilde{\mathbb{P}}$ and $\mathbb{P}$ are equivalent no arbitrage can exist under the measure $\mathbb{P}$. 
+Thus, $\\{ V^*(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-martingale relative to the filtration $\\{ \mathcal{F}\_W(t) \\}\_{t \ge 0}$. It follows that
+
+$$
+\widetilde{E}[D(t)V(t)|\mathcal{F}(s)] = D(s)V(s), \qquad \text{for all } 0 \le s \leq t.
+$$
 
