@@ -52,11 +52,15 @@ As an illustration, Fig. 1 shows sample paths of FBM and its corrisponding incre
 
 The difference between the two cases is startlingly clear. The signal for $H=0.8$ looks more regular with regions of persistent upward and downward trends. On the contrary, the signal for $H=0.1$ is extrimely rough with no preferential trend. 
 
-Consider now, as an example, the case $H=0.1$. Suppose that a preliminary analysis on a time-series has established that, at the relevant trading time-scale, the signal is well approximated by $B\_t^{0.1}$. This can be achieved, for example, by computing the scaling of increment variance (1.1) or by a trained neural network. 
+Consider now, as an example, the case $H=0.1$. Suppose that a preliminary analysis on a time-series has established that, at the relevant trading time-scale, the signal is well approximated by $B\_t^{0.1}$. This can be achieved, for example, by computing the scaling of increment variance (1.1) or by a trained neural network. A simple **trading strategy** would then be to open a long position every time a negative price difference is recorded at the end of the previous time period. By applying the strategy a sufficiently large number of times, we know by (1.2) that we have a statistical adavantage. This is illustred in Fig. 2 where the pdf of $\Delta B^{0.1}\_{t+1}$ conditioned on $\Delta B^{0.1}\_{t}<0$ is computed numerically on $10^4$ realizations of Fractional Brownian Motion. Clearly, the probability is shifted towards positive returns. 
+
+The question is, of course, whether such signals exist in the real market and if they last a sufficinetly long time to allow for statistical arbitrage.
 
 <p align="center">
   <img src="figures/cond_pdf_fmb_h01.png" width="70%">
 </p>
+</p>
+<p align="center"><b>Figure 2:</b> Pdf of $\Delta B^{0.1}\_{t+1}$ conditioned on $\Delta B^{0.1}\_{t}<0$.</p>
 
 [^1]: Cifani, P. and Flandoli, F., 2025. Diffusion Properties of Small-Scale Fractional Transport Models, Journal of Statistical Physics.
 
