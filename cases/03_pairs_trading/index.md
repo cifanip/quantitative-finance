@@ -62,13 +62,13 @@ $$
 \Delta y_t \coloneqq (1-L) y_{t} = u_t, \qquad (1.8)
 $$
 
-with $L$ the lag operator. For a $K$-dimansional $VAR(p)$ process we have
+with $L$ the lag operator. Analogously, for a $K$-dimansional $VAR(p)$ process with $d$ unit roots we have
 
 $$
-A(L)  y_t = u_t, \qquad (1.9)
+\Delta^d y_t \coloneqq (1-L)^d y_{t}
 $$
 
-where $A(L) \coloneqq I - A_1L - \cdots - A_pL^p$. 
+is a stable process. 
 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
