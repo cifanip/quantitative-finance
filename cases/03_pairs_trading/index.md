@@ -126,11 +126,11 @@ A number of issues arise in real-world time-series.
 
 1. The main underlying assumption is that time-series are well approximated by model (1.0), which is of course questionable in many cases. 
 
-2. Suppose one has data on $N$ time-series and seeks to find the cointegration relations among groups od dimension $K$. The total number of relevant combinations is
+2. Suppose one has data on $N$ time-series and seeks to find the cointegration relations among groups of dimension $K$. The total number of relevant combinations is
 
-    $$
-    \frac{N!}{K!(N-K)!}
-    $$
+  $$
+  \frac{N!}{K!(N-K)!}
+  $$
 
     which for fixed $K$ scales as $\sim N^K/K!$. For large $N$, this search can become computationally prohibitive.
 
