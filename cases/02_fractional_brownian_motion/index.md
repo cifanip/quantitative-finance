@@ -60,7 +60,7 @@ The question is, of course, whether such signals exist in the real market and if
   <img src="figures/cond_pdf_fmb_h01.png" width="70%">
 </p>
 </p>
-<p align="center"><b>Figure 2:</b> Pdf of $\Delta B^{0.1}\_{t+1}$ conditioned on $\Delta B^{0.1}\_{t}<0$.</p>
+<p align="center"><b>Figure 2:</b> Pdf of $\Delta B^{0.1}_{t+1}$ conditioned on $\Delta B^{0.1}_{t}<0$.</p>
 
 [^1]: Cifani, P. and Flandoli, F., 2025. Diffusion Properties of Small-Scale Fractional Transport Models, Journal of Statistical Physics.
 
