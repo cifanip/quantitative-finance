@@ -77,7 +77,7 @@ $$
 y_t = A_1 y_{t-1} + A_2 y_{t-2} +u_t. \qquad (1.10)
 $$
 
-Suppose that the process is unstable, and in particular one or more roots are unitary while the rest of them lies outside of the nit circle (see condition (1.6)). By the former assumptions it follows that $|I-A\_1-A\_2|=0$ and thus the matrix
+Suppose that the process is unstable, and in particular one or more roots are unitary while the rest of them lies outside of the nit circle (see condition (1.6)). By the former assumptions it follows that $|I-A_1-A_2|=0$ and thus the matrix
 
 $$
 \Pi := -(I-A_1-A_2) \qquad (1.11)
