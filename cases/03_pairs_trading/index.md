@@ -108,7 +108,7 @@ A $VAR(1)$ process of dimension $K=3$ is shown in Figure 1.
 
 <p align="center"><b>Figure 1:</b> $VAR(1)$ process of dimension $K=3$ and cointegration rank $r=2$.</p>
 
-The signals represented by the black and blue lines move, on average, in the same direction, whereas the signal represented by the orange line deviates from this pattern. The cointegration theory tells us precisely what linear combionation of these signals prodcues a stationary process. Application the theory above yields $r=2$. Hence, the two rows of the matrix $\beta$, $\beta_1$ and $\beta_2$ represent the two cointegration vectors. Fig. 2 shows the signals $\beta_1 \cdot y_t$ and $\beta_2 \cdot y_t$. 
+The signals represented by the black and blue lines move, on average, in the same direction, whereas the signal represented by the orange line deviates from this pattern. The cointegration theory tells us precisely what linear combionation of these signals prodcues a stationary process. Application the theory above yields $r=2$. Hence, the two rows of the matrix $\beta$, $\beta_1$ and $\beta_2$, represent the two cointegration vectors. Fig. 2 shows the signals $\beta_1 \cdot y_t$ and $\beta_2 \cdot y_t$. 
 
 ### Practical considerations
 When analysing time-series one does not apriori, in general, what the cointegration rank $r$ is. However, if the process is assumed to be Gaussian, parameter estimation is possible through Maximum Likelihood estimation under the constraint $\text{rank}(\Pi)=r$. Analytical formula exists in this case, which yield the cointegration vectors $\beta$ (see [^1] for details). 
