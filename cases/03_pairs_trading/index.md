@@ -22,5 +22,5 @@ where $y_t = (y_{1t},...,y_{Kt})'$ is a $K$-dimensional random vector, $A_i$ are
 Model (1.0) can be conviniently reqritten in matrix form:
 
 $$
-\mathbf{Y}_t = \mathbf{\nu} + \mathbf{A} \mathbf{Y}_{t-1} + \mathbf{U}_t
+\mathbf{Y}_t = \boldsymbol{\nu} + \mathbf{A} \mathbf{Y}_{t-1} + \mathbf{U}_t
 $$
