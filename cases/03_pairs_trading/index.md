@@ -62,10 +62,10 @@ $$
 \Delta y_t \coloneqq (1-L) y_{t} = u_t, \qquad (1.8)
 $$
 
-with $L$ the lag operator. Analogously, for a $K$-dimansional $VAR(p)$ process with $d$ unit roots we have
+with $L$ the lag operator. Analogously, it can be shown that for a $K$-dimansional $VAR(p)$ process with $d$ unit roots we have that 
 
 $$
-\Delta^d y_t \coloneqq (1-L)^d y_{t}
+\Delta^d y_t \coloneqq (1-L)^d y_{t} \qquad (1.9)
 $$
 
 is a stable process. 
