@@ -89,7 +89,7 @@ $$
 \Delta y_t = \Pi y_{t-1} + \Gamma_1 \Delta y_{t-1} + u_t,
 $$
 
-with $\Gamma_1 \coloneqq -A_2$. Since the right-hand side only contains stationary processes, it follows that $\alpha \beta'y_{t-1}$ must be stationary. Multiplication by the left inverse $(\alpha' \alpha)^{-1} \alpha'$ isolates the cointegrating relation $\beta' y_t$. 
+with $\Gamma_1 := -A_2$. Since the right-hand side only contains stationary processes, it follows that $\alpha \beta'y_{t-1}$ must be stationary. Multiplication by the left inverse $(\alpha' \alpha)^{-1} \alpha'$ isolates the cointegrating relation $\beta' y_t$. 
 
 The interesting case in practise is often when all individual variables are either $I(1)$ or $I(0)$. A $K$-dimensional $VAR(p)$ process is called *cointegrated* if rank $r$ if
 
