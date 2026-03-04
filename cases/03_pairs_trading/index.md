@@ -124,13 +124,17 @@ When analysing time-series one does not a priori, in general, what the cointegra
 
 A number of issues arise in real-world time-series.
 
-1. Suppose one has data on $N$ time-series and seeks to find the cointegration relations among groups od dimension $K$. The total number of relevant combinations is 
+1. The main underlying assumption is that time-series are well approximated by model (1.0). 
+
+2. Suppose one has data on $N$ time-series and seeks to find the cointegration relations among groups od dimension $K$. The total number of relevant combinations is 
 
 $$
 \frac{N!}{K!(N-K)!}
 $$
 
-which for fixed $K$ scales as $\sim N^K/K!$. A second, more difficult problem, stems from the fact that one has only access to historical values. It is on these datasets that $\beta$ is computed. In actual trading a portfolio $\beta'y_t$ is constructed when a position is opened and $\beta$ held fixed until the position is closed. However, there is no guarantee that $\beta$ will stay approximately the same within this trading time window. In fact, it often varies continuously with time rather than being constant. 
+which for fixed $K$ scales as $\sim N^K/K!$. For large $N$, this search can become computationally prohibitive.
+
+3. A second, more difficult problem, stems from the fact that one has only access to historical values. It is on these datasets that $\beta$ is computed. In actual trading a portfolio $\beta'y_t$ is constructed when a position is opened and $\beta$ held fixed until the position is closed. However, there is no guarantee that $\beta$ will stay approximately the same within this trading time window. In fact, it often varies continuously with time rather than being constant. 
 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
