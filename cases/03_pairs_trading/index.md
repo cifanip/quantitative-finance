@@ -122,7 +122,9 @@ In the theoretical case, the trading strategy is simple: buy below the dashed li
 ### Practical considerations
 When analysing time-series one does not a priori, in general, what the cointegration rank $r$ is. However, if the process is assumed to be Gaussian, parameter estimation is possible through Maximum Likelihood estimation under the constraint $\text{rank}(\Pi)=r$. Analytical formula exists in this case, which yield the cointegration vectors $\beta$ (see [^1] for details). 
 
-A first problem arises in the complexity of the problem. Suppose one has data on $N$ time-series and seeks to find the cointegration relations among groups od dimension $K$. The total number of relevant combinations is 
+A number of issues arise in real-world time-series.
+
+1. Suppose one has data on $N$ time-series and seeks to find the cointegration relations among groups od dimension $K$. The total number of relevant combinations is 
 
 $$
 \frac{N!}{K!(N-K)!}
