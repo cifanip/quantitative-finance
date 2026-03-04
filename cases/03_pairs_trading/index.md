@@ -102,6 +102,12 @@ has rank $r$. The matrix $\beta$ from the decomposition $\Pi = \alpha' \beta'$ i
 ## Computations
 An example of cointegration is provided in Fig. 1. 
 
+<p align="center">
+  <img src="figures/y_t_K3.png" width="70%">
+</p>
+
+<p align="center"><b>Figure 1:</b> Time-series $y_t$ for $K=3$, $r=2$ of cointegrated signals.</p>
+
 ### Practical considerations
 When analysing time-series one does not apriori, in general, what the cointegration rank $r$ is. However, if the process is assumed to be Gaussian, parameter estimation is possible through Maximum Likelihood estimation under the constraint $\text{rank}(\Pi)=r$. Analytical formula exists in this case, which yield the cointegration vectors $\beta$ (see [^1] for details). 
 
