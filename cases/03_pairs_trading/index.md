@@ -71,6 +71,6 @@ $$
 is a stable process. That is, each variable becomes stationary upon differencing. 
 
 ### Cointegrated processes
-
+The concept can be undersotood (as shown in [^1]) by considering a $VAR(2)$ process. 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
