@@ -22,7 +22,7 @@ where $y_t = (y_{1t},...,y_{Kt})'$ is a $K$-dimensional random vector, $A_i$ are
 Model (1.0) can be conviniently reqritten in a $Kp$-dimensional form:
 
 $$
-\mathbf{Y}_t = \boldsymbol{\nu} + \mathbf{A} \mathbf{Y}_{t-1} + \mathbf{U}_t
+\mathbf{Y}_t = \boldsymbol{\nu} + \mathbf{A} \mathbf{Y}_{t-1} + \mathbf{U}_t (1.1)
 $$
 
-where $\mathbf{Y}_t = (y\_t, y\_{t-1},...,y\_{t-p+1})$ 
+where $\mathbf{Y}_t = (y\_t, y\_{t-1},...,y\_{t-p+1})$ (see [^1] for the complete defition of the terms in (1.1))
