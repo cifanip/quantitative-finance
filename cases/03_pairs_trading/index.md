@@ -89,12 +89,18 @@ $$
 \Delta y_t = \Pi y_{t-1} + \Gamma_1 \Delta y_{t-1} + u_t,
 $$
 
-with $\Gamma_1 \coloneqq -A_2$. Since the right-hand side only contains stationary processes, it follows that $\alpha \beta'y_{t-1}$ must be stationary. Multiplication by the left inverse $(\alpha' \alpha)^{-1} \alpha'$ isolates the cointegrating relation
+with $\Gamma_1 \coloneqq -A_2$. Since the right-hand side only contains stationary processes, it follows that $\alpha \beta'y_{t-1}$ must be stationary. Multiplication by the left inverse $(\alpha' \alpha)^{-1} \alpha'$ isolates the cointegrating relation $\beta' y_t$. 
+
+The interesting case in practise is often when all individul variables are either $I(1)$ or $I(0)$. A $K$-dimensional $VAR(p)$ process is called *cointegrated* if rank $r$ if
 
 $$
-\beta' y_t \qquad (1.12)
+\Pi \coloneqq -(I-A_1- \cdots - A_p)
 $$
 
-with $\beta$ the cointegration vectors. 
+has rank $r$. The matrix $\beta$ from the decomposition $\Pi = \alpha' \beta'$ is called *cointegration vectors*. Edge cases are: $r=0$, for which $\Delta y_t$ is a stable $VAR(p-1)$ process; $r=K$, for which $y_t$ has no unitary roots and hence stable. 
+
+
+
+
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
