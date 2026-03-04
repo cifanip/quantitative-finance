@@ -70,5 +70,7 @@ $$
 
 is a stable process. 
 
+### Cointegrated processes
+
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
