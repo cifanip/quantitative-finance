@@ -26,3 +26,6 @@ $$
 $$
 
 where $\mathbf{Y}_t = (y\_t, y\_{t-1},...,y\_{t-p+1})$ (see [^1] for the complete defition of the terms in (1.1))
+
+
+[^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
