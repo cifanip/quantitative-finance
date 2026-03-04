@@ -42,10 +42,10 @@ As an illustration, Fig. 1 shows sample paths of FBM and its corrisponding incre
 
 <figure align="center">
   <img src="figures/fbm_h08.png" width="45%">
-  <img src="figures/fbm_h02.png" width="45%">
+  <img src="figures/fbm_h01.png" width="45%">
   <br>
   <img src="figures/fbn_h08.png" width="45%">
-  <img src="figures/fbn_h08.png" width="45%">
+  <img src="figures/fbn_h01.png" width="45%">
   <figcaption><b>Figure 1:</b> Caption describing the four figures.</figcaption>
 </figure>
 
