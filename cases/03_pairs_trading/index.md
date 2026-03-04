@@ -62,6 +62,13 @@ $$
 \Delta y_t \coloneqq (1-L) y_{t} = u_t, \qquad (1.8)
 $$
 
-with $L$ the lag operator. 
+with $L$ the lag operator. For a $K$-dimansional $VAR(p)$ process we have
+
+$$
+A(L)  y_t = u_t, \qquad (1.9)
+$$
+
+where $A(L) \coloneqq I - A_1L - \cdots - A_pL^p$. 
+
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
