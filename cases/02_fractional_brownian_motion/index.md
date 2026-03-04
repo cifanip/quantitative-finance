@@ -52,6 +52,8 @@ As an illustration, Fig. 1 shows sample paths of FBM and its corrisponding incre
 
 The difference between the two cases is startlingly clear. The signal for $H=0.8$ looks more regular with regions of persistent upward and downward trends. On the contrary, the signal for $H=0.1$ is extrimely rough with no preferential trend. 
 
+Consider now, as an example, the case $H=0.1$. Suppose that a preliminary analysis on a time-series has established that, at the relevant trading time-scale, the signal is well approximated by $B\_t^{0.1}$. This can be achieved, for example, by computing the scaling of increment variance (1.1) or by a trained neural network. 
+
 <p align="center">
   <img src="figures/cond_pdf_fmb_h01.png" width="70%">
 </p>
