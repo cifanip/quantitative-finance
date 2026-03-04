@@ -83,7 +83,7 @@ $$
 \Pi \coloneqq -(I-A_1-A_2) \qquad (1.11)
 $$
 
-is singular. Suppose rank$\Pi = r < K$. Then we can decompose $\Pi = \alpha \beta'$. Now we assume that differencing once is enough to make the process stable, i.e. $y_t$ is $I(1)$. We thus have
+is singular. Suppose $\test{rank}\Pi = r < K$. Then we can decompose $\Pi = \alpha \beta'$. Now we assume that differencing once is enough to make the process stable, i.e. $y_t$ is $I(1)$. We thus have
 
 $$
 \Delta y_t = \Pi y_{t-1} + \Gamma_1 \Delta y_{t-1} + u_t,
