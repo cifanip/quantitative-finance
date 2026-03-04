@@ -68,7 +68,7 @@ $$
 \Delta^d y_t \coloneqq (1-L)^d y_{t} \qquad (1.9)
 $$
 
-is a stable process. 
+is a stable process. That is, each variable becomes stationary upon differencing. 
 
 ### Cointegrated processes
 
