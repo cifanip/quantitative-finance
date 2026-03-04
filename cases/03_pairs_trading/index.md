@@ -115,7 +115,7 @@ The signals represented by the black and blue lines move, on average, in the sam
   <img src="figures/beta_2.png" width="45%">
 </p>
 
-<p align="center"><b>Figure 2:</b> FMB realization and its corresponding increments for $H=0.8$ (left column) and for $H=0.1$ (right column).</p>
+<p align="center"><b>Figure 2:</b> Signals $\beta_1 \cdot y_t$ (left panel) and $\beta_2 \cdot y_t$ (right panel).</p>
 
 ### Practical considerations
 When analysing time-series one does not apriori, in general, what the cointegration rank $r$ is. However, if the process is assumed to be Gaussian, parameter estimation is possible through Maximum Likelihood estimation under the constraint $\text{rank}(\Pi)=r$. Analytical formula exists in this case, which yield the cointegration vectors $\beta$ (see [^1] for details). 
