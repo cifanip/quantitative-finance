@@ -71,6 +71,12 @@ $$
 is a stable process. That is, each variable becomes stationary upon differencing. 
 
 ### Cointegrated processes
-The concept can be undersotood (as shown in [^1]) by considering a $VAR(2)$ process. 
+The concept can be undersotood (as shown in [^1]) by considering a $VAR(2)$ process
+
+$$
+y_t = A_1 y_{t-1} + A_2 y_{t-2} +u_t. \qquad (1.10)
+$$
+
+Suppose that the process is unstable, and in particular one or more roots are unitary while the rest of them lies outside of the nit circle (see ocondition (1.6)). 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
