@@ -50,7 +50,7 @@ As an illustration, Fig. 1 shows sample paths of FBM and its corrisponding incre
 </p>
 <p align="center"><b>Figure 1:</b> FMB realization and its corresponding increments for $H=0.8$ (left column) and for $H=0.1$ (right column).</p>
 
-The difference between the two cases is startlingly clear. The signal for $H=0.8$ looks more regular with regions of persistent upward and downward trends. On the contrary, the signal for $H=0.1$ is extrimely rough with hardly any preferential trend. 
+The difference between the two cases is startlingly clear. The signal for $H=0.8$ looks more regular with regions of persistent upward and downward trends. On the contrary, the signal for $H=0.1$ is extrimely rough with no preferential trend. 
 
 [^1]: Cifani, P. and Flandoli, F., 2025. Diffusion Properties of Small-Scale Fractional Transport Models, Journal of Statistical Physics.
 
