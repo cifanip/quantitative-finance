@@ -8,7 +8,7 @@ layout: default
 In essence, pairs trading aims to construct a mean-reverting process by combining price signals that contain drift. If such an endeavour is successful, one obtains a statistical arbitrage opportunity. A long position initiated at a price well below the mean of the process will generate a positive return when the process will reveret to its mean. The opposite is be true for a short position. 
 
 ## 1. Theory
-The mathematics behind pairs trading is known as **cointegration**. In the following, I will introduce the necessary tool to understand cointegrated processes.
+The mathematics behind pairs trading is known as **cointegration**. In the following, I will introduce the necessary tools to understand cointegrated processes.
 
 ### VAR(p) processes
 The vector autoregressive model of order $p$, namely VAR(p), is defined as follows:
@@ -29,6 +29,12 @@ where $\mathbf{Y}_t = (y\_t, y\_{t-1},...,y\_{t-p+1})'$ (see [^1] for the comple
 
 $$
 y_t = \nu + A_1 y_{t-1}+u_t. \qquad (1.3)
+$$
+
+Given an initial condition $y_0$ and a white-noise vector $u_t$, by recursion one finds that
+
+$$
+y_t = (I_K+A_1+...+A_1^{t-1}) \qquad (1.4)
 $$
 
 
