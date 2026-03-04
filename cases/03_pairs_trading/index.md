@@ -40,7 +40,7 @@ $$
 From (1.4) we deduce that if all eigenvalues of $A_1$ are less than $1$ in absolute value the $VAR(1)$ is *stable*. This condition is equivalent to
 
 $$
-\text{det}(I-A_1z) \ne 0$ \qquad \text{for } |z| \le 1, \qquad\qquad (1.5)
+\text{det}(I-A_1z) \ne 0 \qquad \text{for } |z| \le 1, \qquad\qquad (1.5)
 $$
 
 i.e., the polynomial in (1.5) has no roots inside or on the unit circle. 
