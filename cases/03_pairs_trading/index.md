@@ -25,4 +25,4 @@ $$
 \mathbf{Y}_t = \boldsymbol{\nu} + \mathbf{A} \mathbf{Y}_{t-1} + \mathbf{U}_t
 $$
 
-where $\mathbf{Y}_t = (y_t, y_{t-1},...,y_{t-p+1})$
+where $\mathbf{Y}_t = (y\_t, y\_{t-1},...,y\_{t-p+1})$ 
