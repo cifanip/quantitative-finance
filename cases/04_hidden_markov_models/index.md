@@ -52,6 +52,7 @@ $$
 P(\theta,X) = \pi_{x_0} \Pi_{i=0}^{T-1} b_{x_i}(\theta_i)a_{x_i,x_{i+1}}
 $$
 
+since the probability of $\theta_i$ is fully determined by $x_i$. 
 
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
