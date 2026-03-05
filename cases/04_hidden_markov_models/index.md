@@ -115,7 +115,7 @@ $$
 
 and a given initial probability vector $\pi$. The interpretation is as follows. In the first row of matrix $A$, the probability of remaining in state $1$ is set higher than the probability of transitioning to state $2$. An analogous interpretation holds for the second row. In the first row of matrix $B$, higher probabilities are assigned to positive returns when the underlying state is $1$. Conversly, in the seocond row of matrix $B$, with higher probabilities are associated with negative returns when the underlying state is $2$. From this construction we understand state $1$ and $2$ as bull and bear market regimes, respectively. Of course, in reality there is little a priori knowledge of what the state should represent; rather, their interpretation emerges from the estimated model.
 
-Coming back to our numerical experiment, we generate a sequence of observation of length $T=1000$ and feed it to the optimization algorithm. As already mentioned, the latter has no information about the values of $A$ and $B$ that generated the observation sequence. At convergence, the trained model is
+Coming back to our numerical experiment, we generate a sequence of observation of length $T=10000$ and feed it to the optimization algorithm. As already mentioned, the latter has no information about the values of $A$ and $B$ that generated the observation sequence. At convergence, the trained model is
 
 $$
 A =
@@ -131,7 +131,7 @@ B =
 \end{bmatrix}
 $$
 
-which is in good agreement with the given probability matrices. 
+which is in good agreement with the given probability matrices. Once the model is known, one can find the optimal state sequence as described in Problem 2. 
 
 
 
