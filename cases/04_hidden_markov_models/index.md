@@ -16,7 +16,7 @@ We begin by introducing the standard notation for this problem. Let $V = \\{ 0,.
 By definition, a Markov process is fully determined by the current state and a transition matrix $A=\\{ a_{ij} \\}$ of size $N \times N$ where
 
 $$
-a_{ij} = P(\text{state } q_j \text{at} t+1 | \text{state} q_i \text{at} t)
+a_{ij} = P(\text{state } q_j \text{ at } t+1 | \text{state } q_i \text{ at } t)
 $$
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
