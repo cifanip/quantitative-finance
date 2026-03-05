@@ -31,6 +31,10 @@ $$
 b_{j}(k) = P(\text{observation } k \text{ at } t | \text{state } q_j \text{ at } t). \qquad (1.1)
 $$
 
-Analogously to A, we have that B is also row-stochastic. 
+Analogously to A, we have that B is also row-stochastic. Given $N$ and $M$, an HMM model is thus defined by
+
+$$
+\lambda = (A,B,\pi). \qquad (1.2)
+$$
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
