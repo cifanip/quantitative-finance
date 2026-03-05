@@ -37,6 +37,17 @@ $$
 \lambda = (A,B,\pi). \qquad (1.2)
 $$
 
-A quantity of interest is the joint probability of the state sequence and observation sequence $P(\theta,X)$. 
+A funadmanetal quantity of interest, that characterises the probelm, is the joint probability of the state sequence and observation sequence $P(\theta,X)$. To illustrate where the Markov property arises, consider the simple case of a sequence of length $3$. Recalling the basic property of joint and conditional distribution we have
+
+$$
+\begin{aligned}
+P(x_1,x_2,x_3) &= P(x_1 | x_2,x_3 )P(x2,x_3) \\
+& = P(x_1 | x_2,x_3 )P(x2|x_3) P(x_3).
+\end{aligned}
+$$
+
+
+
+
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
