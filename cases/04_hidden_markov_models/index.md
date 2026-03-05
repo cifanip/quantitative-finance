@@ -75,6 +75,8 @@ Computing (1.4) directly is expensive. The number of multiplications in each ter
 
 Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find and optimal state sequence for the underlying Markov process. Here, we aim to compute the hidden state sequence that underlies the observed process. 
 
+Here, we have different interpretations of ``optimal". 
+
 ### Problem 3
 
 Given an observation sequence $\theta$ and dimensions $N$ and $M$, find the model $\lambda = (A,B,\pi)$ that maximizes the probability of $\theta$. 
