@@ -83,4 +83,6 @@ Given an observation sequence $\theta$ and dimensions $N$ and $M$, find the mode
 
 This problem is often ecountered in practise. All one is given is a sequence of observations from real-world data. It is hoped that the problem fits well within the HMM framwork such that, after having learned $\lambda = (A,B,\pi)$ from data, one can uncover the underlying hidden state sequence. Through an algorithm that re-estimates the model iteratively, maximizaion of $P(\theta ; \lambda)$ is achieved. The interested reader is referred to [^1] for implementation details. 
 
+## 2. COmputations
+
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
