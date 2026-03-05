@@ -113,7 +113,9 @@ B =
 \end{bmatrix}
 $$
 
-and a given initial probability vector $\pi$. The interpretation is as follows. In the first row of matrix $A$ we set a higher probability that state $1$ is followed by the same state, rather than by state $2$. Analogously for the second row. 
+and a given initial probability vector $\pi$. The interpretation is as follows. In the first row of matrix $A$, the probability of remaining in state $1$ is set higher than the probability of transitioning to state $2$. An analogous interpretation holds for the second row. In the first row of matrix $B$, higher probabilities are assigned to positive returns when the underlying state is $1$. Conversly, in the seocond row of matrix $B$, with higher probabilities are associated with negative returns when the underlying state is $2$. From this construction we understand state $1$ and $2$ as bull and bear market regimes, respectively. Of course, in reality there is little a priori knowledge of what the state should represent; rather, their interpretation emerges from the estimated model.
+
+
 
 
 
