@@ -49,7 +49,7 @@ $$
 However, by the Markov property $P(x_0 | x_1,x_2 ) = P(x_0 | x_1)$. Thus, we have
 
 $$
-P(\theta,X) = \pi_{x_0} \Pi_{i=0}^{T-1} b_{x_i}(\theta_i)a_{x_i,x_{i+1}}
+P(\theta,X) = \pi_{x_0} \Pi_{i=1}^{T-1} b_{x_{i-1}}(\theta_{i-1})a_{x_{i-1},x_{i}}
 $$
 
 since the probability of $\theta_i$ is fully determined by $x_i$. 
