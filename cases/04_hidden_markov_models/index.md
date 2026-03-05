@@ -11,7 +11,7 @@ It often the case that in real-world sequential data problems, the actual proces
 
 The following is a condensed and focused extract of the lecture notes [^1]. These concepts can be found in the many texbooks on the subject available online. 
 
-We begin by introducing the standard notation for this problem. Let $V = \\{ 0,...,M-1 \\}$ be the set of possible observations. We denote an obesrvation by $\theta_i \in V$, with $i=0,...,T-1$, and $\theta = (\theta_0,...,\theta_{T-1})$ an observation sequence. Furthermore, let $Q = \\{ 0,...,N-1 \\}$ be the set of possible states and $X_i \in Q$, with $i=0,...,T-1$, denote a state value. FInally, let $\pi$ be the initial state distribution. 
+We begin by introducing the standard notation for this problem. Let $V = \\{ 0,...,M-1 \\}$ be the set of possible observations. We denote an obesrvation by $\theta_i \in V$, with $i=0,...,T-1$, and $\theta = (\theta_0,...,\theta_{T-1})$ an observation sequence. Furthermore, let $Q = \\{ q_0,...,q_{N-1} \\}$ be the set of possible states and $X_i \in Q$, with $i=0,...,T-1$, denote a state value. FInally, let $\pi$ be the initial state distribution. 
 
 By definition, a Markov process is fully determined by the current state and a transition matrix $A=\\{ a_{ij} \\}$ of size $N \times N$ where
 
