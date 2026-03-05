@@ -49,7 +49,7 @@ $$
 However, by the Markov property $P(x_0 | x_1,x_2 ) = P(x_0 | x_1)$. Thus, we have
 
 $$
-P(\theta,X) = \pi_{x_0} \Pi_{i=1}^{T-1} b_{x_{i-1}}(\theta_{i-1})a_{x_{i-1},x_{i}}
+P(\theta,X) = \pi_{x_0} \Pi_{i=1}^{T-1} b_{x_{i-1}}(\theta_{i-1})a_{x_{i-1},x_{i}} \qquad (1.3)
 $$
 
 since $\theta_i$ is conditionally independent of the remaining variables given $x_i$. 
@@ -60,5 +60,16 @@ Three problems are of interest for applications.
 
 Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find $P(\theta ; \lambda)$. That is, we want to find the probability assigned to an obsevation sequence given the model $\lambda$. 
 
+From 
+
+### Problem 2
+
+Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find and optimal state sequence for the underlying Markov process. Here, we aim to compute the hidden state sequence that underlies the observed process. 
+
+### Problem 3
+
+Given an observation sequence $\theta$ and dimensions $N$ and $M$, find the model $\lambda = (A,B,\pi)$ that maximizes the probability of $\theta$. 
+
+Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find and optimal state sequence for the underlying Markov process. Here we want to compute the hidden state sequence which underlies the process. 
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
