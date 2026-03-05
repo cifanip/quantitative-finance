@@ -11,7 +11,7 @@ It often the case that in real-world sequential data problems, the actual proces
 
 The following is a condensed and focused extract of the lecture notes [^1]. These concepts can be found in the many texbooks on the subject available online. 
 
-We begin by introducing the standard notation for this problem. We denote by $\theta$
+We begin by introducing the standard notation for this problem. Let $V = \\{ 0,...,M-1 \\}$ the set of possible observations. We denote an obesrvation by $\theta_i \in V$, with $i=0,...,T-1$, and $\theta = (\theta_0,...,\theta_{T-1})$ an observation sequence. 
 
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
