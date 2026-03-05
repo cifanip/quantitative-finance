@@ -41,15 +41,15 @@ A funadmanetal quantity of interest, that characterises the probelm, is the join
 
 $$
 \begin{aligned}
-P(x_1,x_2,x_3) &= P(x_1 | x_2,x_3 )P(x2,x_3) \\
-& = P(x_1 | x_2,x_3 )P(x2|x_3) P(x_3).
+P(x_0,x_1,x_2) &= P(x_0 | x_1,x_2 )P(x1,x_2) \\
+& = P(x_0 | x_1,x_2 )P(x1|x_2) P(x_2).
 \end{aligned}
 $$
 
-However, by the Markov property $P(x_1 | x_2,x_3 ) = P(x_1 | x_2)$. Thus, we have
+However, by the Markov property $P(x_0 | x_1,x_2 ) = P(x_0 | x_1)$. Thus, we have
 
 $$
-P(\theta,X) = \pi_{x_0} \Prod
+P(\theta,X) = \pi_{x_0} \Pi_{i=0}^{T-1} b_{x_i}(\theta_i)a_{x_i,x_{i+1}}
 $$
 
 
