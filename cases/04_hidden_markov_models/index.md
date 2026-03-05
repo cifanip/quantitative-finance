@@ -69,7 +69,7 @@ P(\theta ;\lambda) &= \sum_X P(\theta , X ; \lambda) \\
 \end{aligned}
 $$
 
-Computing (1.4) directly is expensive. The number of multiplications in each term of the sum are about $2T$. One has to sum over all possible combinations of $N$ state values in a sequence of length $T$, that is $N^T$ combinations. In total we have a complexity of $\sim TN^T$. Fortunately, there exists an efficient algorithms to compute $P(\theta ;\lambda)$ called the *forward* or $\alpha$*-pass* algorithm (see [^1] for details). 
+Computing (1.4) directly is expensive. The number of multiplications in each term of the sum are about $2T$. One has to sum over all possible combinations of $N$ state values in a sequence of length $T$, that is $N^T$ combinations. In total we have a complexity of $\sim TN^T$. Fortunately, there exists an efficient algorithms to compute $P(\theta ;\lambda)$ called the *forward* or $\alpha$*-pass* algorithm (see [^1] for details), by which the complexity of te algorithm is reduced to $\sim TN^2$. 
 
 ### Problem 2
 
