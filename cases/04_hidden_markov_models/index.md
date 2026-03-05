@@ -69,18 +69,18 @@ P(\theta ;\lambda) &= \sum_X P(\theta , X ; \lambda) \\
 \end{aligned}
 $$
 
-Computing (1.4) directly is expensive. The number of multiplications in each term of the sum are about $2T$. One has to sum over all possible combinations of $N$ state values in a sequence of length $T$, that is $N^T$ combinations. In total we have a complexity of $\sim TN^T$. Fortunately, there exists an efficient algorithms to compute $P(\theta ;\lambda)$ called the *forward* or $\alpha$*-pass* algorithm (see [^1] for details), by which the complexity of te algorithm is reduced to $\sim TN^2$. 
+Computing (1.4) directly is expensive. The number of multiplications in each term of the sum are about $2T$. One has to sum over all possible combinations of $N$ state values in a sequence of length $T$, that is $N^T$ combinations. In total we have a complexity of $\sim TN^T$. Fortunately, there exists an efficient algorithms to compute $P(\theta ;\lambda)$ called the *forward* or $\alpha$*-pass* algorithm (see [^1] for details), by which the complexity of the algorithm is reduced to $\sim TN^2$. 
 
 ### Problem 2
 
 Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find and optimal state sequence for the underlying Markov process. Here, we aim to compute the hidden state sequence that underlies the observed process. 
 
-Here, we have different interpretations of ``optimal". 
+Here, we have different interpretations of "optimal". In the HHM sense, we select the most probale state at each sequence location. Differently, the so-called dynamic programming selecs the state sequence having the maximum probability. In either case, the solution algorithm goes through a $\beta$*-pass* (see [^1] for details). As fotr the $\alpha$-pass, a conveninet manipulation of (1.4) allows to retain the favaurable complexity. 
 
 ### Problem 3
 
 Given an observation sequence $\theta$ and dimensions $N$ and $M$, find the model $\lambda = (A,B,\pi)$ that maximizes the probability of $\theta$. 
 
-Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find and optimal state sequence for the underlying Markov process. Here we want to compute the hidden state sequence which underlies the process. 
+This problem is often ecountered in practise. All one is given is a sequence of observations from real-world data. The hope is that the problem well fits the HMM framwork such that, after having learned $\lambda = (A,B,\pi)$ from data, one can uncover the underlying hidden state. Through an algorithm that re-estimates the model iteratively, maximizaion of $P(\theta ; \lambda)$ is achieved. The interested reader is referred to [^1] for implementation details. 
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
