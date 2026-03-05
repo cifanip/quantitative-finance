@@ -113,7 +113,7 @@ B =
 \end{bmatrix}
 $$
 
-and a given initial probability vector $\pi$. 
+and a given initial probability vector $\pi$. The interpretation is as follows. In the first row of matrix $A$ we set a higher probability that state $1$ is followed by the same state, rather than by state $2$. Analogously for the second row. 
 
 
 
