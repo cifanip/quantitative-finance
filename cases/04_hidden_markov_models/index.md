@@ -54,5 +54,11 @@ $$
 
 since $\theta_i$ is conditionally independent of the remaining variables given $x_i$. 
 
+Three problems are of interest for applications. 
+
+### Problem 1
+
+Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find $P(\theta ; \lambda)$. That is, we want to find the probability assigned to an obsevation sequence given the model $\lambda$. 
+
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
