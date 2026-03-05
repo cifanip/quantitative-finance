@@ -25,6 +25,10 @@ $$
 a_{ij} \ge 0, \qquad \sum_{j=0}^{N-1} a_{ij} = 1.
 $$
 
+The relation between the state and the observations is encoded in the matrix $B=\\{ b_{jk} \\}=\\{ b_j(k) \\}$ of size $N \times M$ where
 
+$$
+b_{j}(k) = P(\text{observation } k \text{ at } t | \text{state } q_j \text{ at } t). \qquad (1.1)
+$$
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
