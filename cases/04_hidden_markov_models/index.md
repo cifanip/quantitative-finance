@@ -9,9 +9,9 @@ It often the case that in real-world sequential data problems, the actual proces
 
 ## 1. Theory
 
-The following is a condensed and focused extract of the lecture notes [^1]. 
+The following is a condensed and focused extract of the lecture notes [^1]. These concepts can be found in the many texbooks on the subject available online. 
 
 
 
 
-[^1] ciao
+[^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University, pp.26-56.
