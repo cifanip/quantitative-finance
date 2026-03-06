@@ -153,6 +153,10 @@ This provides a graphical summary of the information encoded in the transition m
 
 ## 3. Limitations
 
+While HHM is a powerful tool to uncover hidden structure and predict regime probabilities, as all models it comes with limitations. Here is a list of some of the shortcomings of HHM.
 
+1. Future hidden states depend only on the current hidden state. In practice, however, time series often exhibit long-range dependencies on past states, which are not captured by standard HMMs.
+2. Observations may depend on past values even though the current state is known.
+3. The dimension of the hidden state $N$ is not known a priori. If $N$ is chosen too large, the model may overfit the training data; if $N$ is chosen too small, the model may underfit.
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
