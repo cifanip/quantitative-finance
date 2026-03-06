@@ -11,7 +11,7 @@ The numerical results were generated using in-house code provided at [HHM simula
 
 ## 1. Theory
 
-The following is a condensed and focused extract of the lecture notes [^1]. These concepts can be found in the many textbooks on the subject available online. 
+The following is partly based on the lecture notes [^1]. These concepts can be found in the many textbooks on the subject available online. 
 
 We begin by introducing the standard notation for this problem. Let $V = \\{ 0,...,M-1 \\}$ be the set of possible observations. We denote an observation by $\theta_i \in V$, with $i=0,...,T-1$, and $\theta = (\theta_0,...,\theta_{T-1})$ an observation sequence. Furthermore, let $Q = \\{ q_0,...,q_{N-1} \\}$ be the set of possible states and $X_i \in Q$, with $i=0,...,T-1$, denote a state value. Finally, let $\pi$ be the initial state distribution. 
 
