@@ -7,10 +7,9 @@ layout: default
 
 This page connects the fundamental concepts of option pricing and probability theory. A brief demonstration of how to compute the risk-neutral probability measure from data is provided. 
 
-The following is partly based on the lecture notes Stochastic Calculus, Financial Derivatives and PDE's [^1], from prof. S. Calogero. 
+The theory presented in these notes is based on the lecture notes Stochastic Calculus, Financial Derivatives and PDE's [^1], by prof. S. Calogero. They are intended as a condensed summary of the material, and any mistakes are my own.
 
 ## 1. Theory
-To set up our analysis, we begin by assuming the probability space $(\Omega, \mathcal{F}, \mathbb{P})$ and the Brownian motion $\\{ W(t) \\}\_{t \ge 0}$ are given. The filtration $\\{ \mathcal{F}(t) \\}\_{t \ge 0 }$ is a non-anticipating filtration for the Brownian motion $\\{ W(t) \\}\_{t \ge 0}$.
 
 ### Martingale
 A central concept used in the following is the notion of a martingale. 
