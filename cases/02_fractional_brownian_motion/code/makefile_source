@@ -1,0 +1,236 @@
+FILES =                      \
+kinds                        \
+formats                      \
+constants                    \
+mpi_error_handler            \
+allocatable_utils            \
+mpi_utils                    \
+hdf_wrapper                  \
+array_utils                  \
+random_utils_cpp             \
+random_utils                 \
+basic_utils                  \
+vector_1d_cpp                \
+vector_1d_int                \
+vector_1d_double             \
+vector_2d_cpp                \
+vector_2d_int                \
+vector_2d_double             \
+vector_3d_cpp                \
+vector_3d_int                \
+vector_3d_double             \
+vector_string_cpp            \
+vector_string                \
+fft                          \
+fft_r2c_1d                   \
+fft_c2r_1d                   \
+fft_c2c_1d                   \
+fft_r2c_batch_1d             \
+fft_c2r_batch_1d             \
+fft_c2c_batch_1d             \
+scalar_tseries               \
+vector_tseries               \
+fbm                          \
+main
+
+OBJ_AUX  = $(foreach O, ${FILES}, $(OBJDIR)/$(O))
+OBJ_LIST = $(addsuffix .o,${OBJ_AUX})
+
+$(EXE) : $(OBJ_LIST)
+	$(COMPILER) -o $(EXE) $(OBJ_LIST) $(LIBS) $(MT_FLAG)
+
+################################### SOURCE FILES #########################################
+$(OBJDIR)/kinds.o: $(SOURCE)/kinds.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+	
+$(OBJDIR)/formats.o: $(SOURCE)/formats.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/constants.o: $(SOURCE)/constants.F90 \
+$(OBJDIR)/kinds.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+	
+$(OBJDIR)/mpi_error_handler.o: $(SOURCE)/mpi_error_handler.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/allocatable_utils.o: $(SOURCE)/allocatable_utils/allocatable_utils.F90 \
+$(SOURCE)/allocatable_utils/arr_alloc.F90 \
+$(SOURCE)/allocatable_utils/arr_copy.F90 \
+$(SOURCE)/allocatable_utils/arr_realloc.F90 \
+$(SOURCE)/allocatable_utils/char_alloc.F90 \
+$(SOURCE)/allocatable_utils/char_copy.F90 \
+$(SOURCE)/allocatable_utils/char_realloc.F90 \
+$(SOURCE)/allocatable_utils/deallocate_arr.F90 \
+$(SOURCE)/allocatable_utils/append_to_array.F90 \
+$(OBJDIR)/kinds.o \
+$(OBJDIR)/mpi_error_handler.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+	
+$(OBJDIR)/mpi_utils.o: $(SOURCE)/mpi_utils/mpi_utils.F90 \
+$(OBJDIR)/allocatable_utils.o \
+$(SOURCE)/mpi_utils/mpi_send_value.F90 \
+$(SOURCE)/mpi_utils/mpi_send_array.F90 \
+$(SOURCE)/mpi_utils/mpi_gather_value.F90 \
+$(SOURCE)/mpi_utils/mpi_scatter_value.F90 \
+$(SOURCE)/mpi_utils/mpi_bcast_value.F90 \
+$(SOURCE)/mpi_utils/mpi_bcast_array.F90 \
+$(SOURCE)/mpi_utils/mpi_reduce_value.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/vector_1d_cpp.o: $(SOURCE)/vector/vector_1d_cpp.C \
+$(SOURCE)/vector/vector_1d_cpp.H
+	$(COMPILER_CPP) -c $(FLAGS_CPP) $< -o $@
+
+$(OBJDIR)/vector_1d_int.o: $(SOURCE)/vector/vector_1d_int.F90 \
+$(OBJDIR)/mpi_utils.o \
+$(OBJDIR)/vector_1d_cpp.o \
+$(SOURCE)/vector/vector_1d_template.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/vector_1d_double.o: $(SOURCE)/vector/vector_1d_double.F90 \
+$(OBJDIR)/mpi_utils.o \
+$(OBJDIR)/vector_1d_cpp.o \
+$(SOURCE)/vector/vector_1d_template.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/vector_2d_cpp.o: $(SOURCE)/vector/vector_2d_cpp.C \
+$(SOURCE)/vector/vector_2d_cpp.H \
+$(OBJDIR)/vector_1d_cpp.o
+	$(COMPILER_CPP) -c $(FLAGS_CPP) $< -o $@
+
+$(OBJDIR)/vector_2d_int.o: $(SOURCE)/vector/vector_2d_int.F90 \
+$(OBJDIR)/vector_2d_cpp.o \
+$(OBJDIR)/mpi_utils.o \
+$(OBJDIR)/vector_1d_int.o \
+$(SOURCE)/vector/vector_2d_template.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/vector_2d_double.o: $(SOURCE)/vector/vector_2d_double.F90 \
+$(OBJDIR)/vector_2d_cpp.o \
+$(OBJDIR)/mpi_utils.o \
+$(OBJDIR)/vector_1d_double.o \
+$(SOURCE)/vector/vector_2d_template.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/vector_3d_cpp.o: $(SOURCE)/vector/vector_3d_cpp.C \
+$(SOURCE)/vector/vector_3d_cpp.H \
+$(OBJDIR)/vector_2d_cpp.o \
+$(OBJDIR)/vector_1d_cpp.o
+	$(COMPILER_CPP) -c $(FLAGS_CPP) $< -o $@
+
+$(OBJDIR)/vector_3d_int.o: $(SOURCE)/vector/vector_3d_int.F90 \
+$(OBJDIR)/vector_3d_cpp.o \
+$(OBJDIR)/allocatable_utils.o \
+$(OBJDIR)/vector_2d_int.o \
+$(SOURCE)/vector/vector_3d_template.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+	
+$(OBJDIR)/vector_3d_double.o: $(SOURCE)/vector/vector_3d_double.F90 \
+$(OBJDIR)/vector_3d_cpp.o \
+$(OBJDIR)/allocatable_utils.o \
+$(OBJDIR)/vector_2d_double.o \
+$(SOURCE)/vector/vector_3d_template.F90
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/vector_string_cpp.o: $(SOURCE)/vector/vector_string_cpp.C \
+$(SOURCE)/vector/vector_string_cpp.H
+	$(COMPILER_CPP) -c $(FLAGS_CPP) $< -o $@
+
+$(OBJDIR)/vector_string.o: $(SOURCE)/vector/vector_string.F90 \
+$(OBJDIR)/vector_string_cpp.o \
+$(OBJDIR)/allocatable_utils.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/hdf_wrapper.o: $(SOURCE)/hdf_wrapper/hdf_wrapper.F90 \
+$(OBJDIR)/allocatable_utils.o \
+$(OBJDIR)/vector_string.o \
+$(SOURCE)/hdf_wrapper/hdf_dread.F90 \
+$(SOURCE)/hdf_wrapper/hdf_dwrite.F90 \
+$(SOURCE)/hdf_wrapper/hdf_read_array.F90 \
+$(SOURCE)/hdf_wrapper/hdf_write_array.F90 \
+$(SOURCE)/hdf_wrapper/hdf_add_array.F90 \
+$(SOURCE)/hdf_wrapper/hdf_write_attribute.F90
+	$(COMPILER) -c $(FLAGS) $(HDF5_HEAD) $< -o $@
+
+$(OBJDIR)/array_utils.o: $(SOURCE)/array_utils/array_utils.F90 \
+$(SOURCE)/array_utils/array_mean.F90 \
+$(SOURCE)/array_utils/array_count_val.F90 \
+$(SOURCE)/array_utils/array_get_closest_loc.F90 \
+$(SOURCE)/array_utils/array_read_file.F90 \
+$(SOURCE)/array_utils/array_read_binary_file.F90 \
+$(SOURCE)/array_utils/array_read_hdf.F90 \
+$(SOURCE)/array_utils/array_write_file.F90 \
+$(SOURCE)/array_utils/array_write_binary_file.F90 \
+$(SOURCE)/array_utils/array_write_hdf.F90 \
+$(SOURCE)/array_utils/array_add_hdf.F90 \
+$(SOURCE)/array_utils/array_is_uniform.F90 \
+$(SOURCE)/array_utils/array_reverse.F90 \
+$(SOURCE)/array_utils/array_reverse_row.F90 \
+$(SOURCE)/array_utils/array_reverse_col.F90 \
+$(SOURCE)/array_utils/array_sort_asc.F90 \
+$(SOURCE)/array_utils/array_sort_desc.F90 \
+$(SOURCE)/array_utils/array_sort_loc_asc.F90 \
+$(SOURCE)/array_utils/array_sort_loc_desc.F90 \
+$(SOURCE)/array_utils/array_sort_loc.F90 \
+$(OBJDIR)/formats.o \
+$(OBJDIR)/hdf_wrapper.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+	
+$(OBJDIR)/random_utils_cpp.o: $(SOURCE)/random_utils/random_utils_cpp.C \
+$(SOURCE)/random_utils/random_utils_cpp.H
+	$(COMPILER_CPP) -c $(FLAGS_CPP) $< -o $@
+
+$(OBJDIR)/random_utils.o: $(SOURCE)/random_utils/random_utils.F90 \
+$(OBJDIR)/random_utils_cpp.o \
+$(OBJDIR)/allocatable_utils.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+	
+$(OBJDIR)/basic_utils.o: $(SOURCE)/basic_utils/basic_utils.F90 \
+$(OBJDIR)/kinds.o \
+$(OBJDIR)/allocatable_utils.o \
+$(OBJDIR)/formats.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/fft.o: $(SOURCE)/fft/fft.F90 \
+$(OBJDIR)/allocatable_utils.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/fft_r2c_1d.o: $(SOURCE)/fft/fft_r2c_1d.F90 \
+$(OBJDIR)/fft.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/fft_c2r_1d.o: $(SOURCE)/fft/fft_c2r_1d.F90 \
+$(OBJDIR)/fft.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/fft_c2c_1d.o: $(SOURCE)/fft/fft_c2c_1d.F90 \
+$(OBJDIR)/fft.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/fft_r2c_batch_1d.o: $(SOURCE)/fft/fft_r2c_batch_1d.F90 \
+$(OBJDIR)/fft.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/fft_c2r_batch_1d.o: $(SOURCE)/fft/fft_c2r_batch_1d.F90 \
+$(OBJDIR)/fft.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/fft_c2c_batch_1d.o: $(SOURCE)/fft/fft_c2c_batch_1d.F90 \
+$(OBJDIR)/fft.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/scalar_tseries.o: $(SOURCE)/time_series/scalar_tseries.F90 \
+$(OBJDIR)/array_utils.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/vector_tseries.o: $(SOURCE)/time_series/vector_tseries.F90 \
+$(OBJDIR)/scalar_tseries.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+
+$(OBJDIR)/fbm.o: $(SOURCE)/stochastic_process/fbm.F90 \
+$(OBJDIR)/random_utils.o \
+$(OBJDIR)/scalar_tseries.o \
+$(OBJDIR)/fft_r2c_1d.o \
+$(OBJDIR)/fft_c2c_1d.o
+	$(COMPILER) -c $(FLAGS) $< -o $@
+##########################################################################################

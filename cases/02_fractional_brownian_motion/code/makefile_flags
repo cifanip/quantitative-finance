@@ -1,0 +1,43 @@
+COMPILER = mpifort
+COMPILER_CPP = mpic++
+
+########################## 	standard
+STD_FLAG = -std=f2018
+STD_FLAG_CPP = -std=c++17
+
+########################## 	multi-threading
+MT_FLAG = -fopenmp
+MT_FLAG_CPP = -pthread
+
+########################## 	LAPACK
+LAPACK_FLAGS = -L/Users/pcifani/programmi/lapack-3.10.1/ -lrefblas -llapack
+
+########################## 	FTTW
+FFTW_FLAGS = -L/Users/pcifani/programmi/fftw-3.3.10/installation/lib -lfftw3
+
+########################## 	HDF5
+HDF5_FLAGS = -L/Users/pcifani/programmi/hdf5-hdf5_1.14.5/install/lib -lhdf5_fortran
+HDF5_HEAD = -I/Users/pcifani/programmi/hdf5-hdf5_1.14.5/install/include
+
+# inhibit warnings from linker
+LD_WARN_FLAGS = -Wl,-w
+
+STD_CPP_LIBS_FLAGS= -lstdc++ -lc++
+
+########################## 	libraries
+LIBS = $(LD_WARN_FLAGS) $(STD_CPP_LIBS_FLAGS) $(LAPACK_FLAGS) $(FFTW_FLAGS) \
+$(HDF5_FLAGS)
+
+########################## 	place obj files
+OBJDIR=OBJECTS
+MKDIR_OBJ := $(shell mkdir -p $(OBJDIR))
+OBJDIR_FLAG = -J$(OBJDIR)
+
+##########################  compiler options
+#debug
+FLAGS = -g -fcheck=all -fbacktrace -fno-realloc-lhs -C $(MT_FLAG) $(STD_FLAG) $(OBJDIR_FLAG)
+FLAGS_CPP = -g $(MT_FLAG_CPP) $(STD_FLAG_CPP)
+
+#optimal
+#FLAGS = -O3 -fbacktrace -fno-realloc-lhs $(MT_FLAG) $(STD_FLAGS) $(OBJDIR_FLAG)
+#FLAGS_CPP = -O3 $(MT_FLAG_CPP) $(STD_FLAG_CPP)
