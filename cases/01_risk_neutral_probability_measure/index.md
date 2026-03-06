@@ -5,7 +5,7 @@ layout: default
 
 # Risk-Neutral Probability Measure
 
-This page presents a condensed and focused extract of the lecture notes Stochastic Calculus, Financial Derivatives and PDE's, from prof. S. Calogero. It connects the fundamental concepts of option pricing and probability theory. A brief demonstration of how to compute the risk-neutral probability measure from data is provided. 
+This page presents a condensed and focused extract of the lecture notes Stochastic Calculus, Financial Derivatives and PDE's [^1], from prof. S. Calogero. It connects the fundamental concepts of option pricing and probability theory. A brief demonstration of how to compute the risk-neutral probability measure from data is provided. 
 
 ## 1. Theory
 To set up our analysis, we begin by assuming the probability space $(\Omega, \mathcal{F}, \mathbb{P})$ and the Brownian motion $\\{ W(t) \\}\_{t \ge 0}$ are given. The filtration $\\{ \mathcal{F}(t) \\}\_{t \ge 0 }$ is a non-anticipating filtration for the Brownian motion $\\{ W(t) \\}\_{t \ge 0}$.
