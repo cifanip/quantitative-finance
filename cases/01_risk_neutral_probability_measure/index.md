@@ -198,5 +198,5 @@ Thus, given an option chain one can reconstruct numerically the dendity $p$ from
   </figcaption>
 </figure>
 
-
+[^1]: Calogero, S., 2019. Stochastic Calculus Financial Derivatives and PDE’s. Lecture notes for the course MMA711 at Chalmers University of Technology.
 
