@@ -17,7 +17,8 @@ The first concept needed is that of **homotopy**. The precise definition, given 
 
 **Definition 1**
 
-Continuous maps $f,g: X \to Y$ between metric spaces $X$ and $Y$ are homeotopic, denoted by $f \simeq g$, if there exists a continuous deformation of $f$ into $g$. Such deformation is called omotopy. 
+Continuous maps $f,g: X \to Y$ between metric spaces $X$ and $Y$ are homeotopic, denoted by $f \simeq g$, if there exists a continuous deformation of $f$ into $g$. Such a deformation is called a homotopy. 
+
 
 
 
