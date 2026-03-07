@@ -13,4 +13,8 @@ After introducing the fundamental concepts, a numerical example is presented to 
 
 ## 1. Theory
 
+The first concept needed is that of **homotopy**. The precise definition, given in [^1], is the following:
+
+
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
