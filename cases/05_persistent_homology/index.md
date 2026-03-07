@@ -16,7 +16,8 @@ After introducing the fundamental concepts, a numerical example is presented to 
 The first concept needed is that of **homotopy**. The precise definition, given in [^1], is the following:
 
 **Definition 1**
-Continuous maps $f,g: X \to Y$
+
+Continuous maps $f,g: X \to Y$ between metric spaces $X$ and $Y$ are homeotopic (indicated as $f \euiv g$)
 
 
 
