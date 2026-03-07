@@ -25,7 +25,7 @@ Next is the definition of homotopy equivalence.
 
 **Definition 2 (Homotopy equivalence)**
 
-Metric spaces $X$ and $Y$ are homotopy equivalent, denoted $X \simeq Y$, if there exist maps $f: X \to Y$ and $g:Y \to X$, sich that $f \circ g \simeq id_Y$ and $g \circ y \simeq id_X$. Such maps are called homotopy equivalences. Consider the simple example in Figure 1. 
+Metric spaces $X$ and $Y$ are homotopy equivalent, denoted $X \simeq Y$, if there exist maps $f: X \to Y$ and $g:Y \to X$, sich that $f \circ g \simeq id_Y$ and $g \circ f \simeq id_X$. Such maps are called homotopy equivalences. Consider the simple example in Figure 1. 
 
 <p align="center">
   <img src="figures/PH_sketch_1.png" width="40%">
