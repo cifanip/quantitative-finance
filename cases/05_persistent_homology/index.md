@@ -17,7 +17,7 @@ The first concept needed is that of **homotopy**. The precise definition, given 
 
 **Definition 1**
 
-Continuous maps $f,g: X \to Y$ between metric spaces $X$ and $Y$ are homeotopic (indicated as $f \euiv g$)
+Continuous maps $f,g: X \to Y$ between metric spaces $X$ and $Y$ are homeotopic (indicated as $f \equiv g$)
 
 
 
