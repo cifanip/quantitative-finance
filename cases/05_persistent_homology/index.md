@@ -23,13 +23,15 @@ Next is the definition of homotopy equivalence.
 
 **Definition 2 (Homotopy equivalence)**
 
-Metric spaces $X$ and $Y$ are homotopy equivalent, denoted $X \simeq Y$, if there exist maps $f: X \to Y$ and $g:Y \to X$, sich that $f \circ g \simeq id_Y$ and $g \circ y \simeq id_X$. Such maps are called homotopy equivalences. 
+Metric spaces $X$ and $Y$ are homotopy equivalent, denoted $X \simeq Y$, if there exist maps $f: X \to Y$ and $g:Y \to X$, sich that $f \circ g \simeq id_Y$ and $g \circ y \simeq id_X$. Such maps are called homotopy equivalences. Consider the simple example in Figure 1. 
 
 <p align="center">
   <img src="figures/PH_sketch_1.png" width="40%">
 </p>
 
-<p align="center"><b>Figure 1:</b> Optimal state sequence of length $2000$.</p>
+<p align="center"><b>Figure 1:</b> Example of homotopy and homotopy equivalence.</p>
+
+The space $X is compoed of one single point. The space $Y$ is composed of a (full) disk to which a line is attached and a point. 
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
