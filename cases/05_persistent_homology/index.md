@@ -43,7 +43,13 @@ We will not delve into the precise definition of simplicial complexes and their 
 
 Since data are not given in the form of simplicial complexes, the preliminary step to computation is to construct such complexes. A widely used construction is the so-called **Rips complex**. 
 
-We briefly introduce the necessary notation used in the remainder of this notes. Let $d,k \in \mathbb{N}$ and let $V = \\{v_0,v_1,...,v_k \\} \subset \mathbb{R}^d$ be a collection of points. 
+We briefly introduce the necessary notation used in the remainder of this notes. Let $d,k \in \mathbb{N}$ and let $V = \\{v_0,v_1,...,v_k \\} \subset \mathbb{R}^d$ be a collection of points. The affine hull of $V$ is the collection of all the affine combinations
+
+$$
+\sum_{i=1}^k \alpha_i v_i \qquad \text{with } \ \sum_{i=1}^k \alpha_i = 1
+$$
+
+of elements of $V$. The subset $V$ is called convex if for each $x,y \in V$ the line segment between $x$ and $y$ lies inside $V$. Its convex hull, $Conv(V)$, is the smallest convex set containing $V$. He collection of points $\\{v_0,v_1,...,v_k \\}$ are affinely independent if $\\{ v_1 - v_0, ..., v_k-v_0 \\}$ are linearly independent. 
 
 ### Homology
 
