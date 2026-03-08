@@ -43,7 +43,7 @@ We will not delve into the precise definition of simplicial complexes and their 
 
 Since data are not given in the form of simplicial complexes, the preliminary step to computation is to construct such complexes. A widely used construction is the so-called **Rips complex**. 
 
-We briefly introduce the necessary notation used in the remainder of this notes. 
+We briefly introduce the necessary notation used in the remainder of this notes. Let $d,k \in \mathcal{N}$
 
 ### Homology
 
