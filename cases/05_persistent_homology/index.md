@@ -68,5 +68,6 @@ Since data are not given in the form of simplicial complexes, the preliminary st
 
 ### Homology
 
+Informally, homology detects holes of different dimensions in a simplicial complex. Let $K$ be a simplicial complex of dimenion $n$ and choose coefficients from a field $\mathbb{F}$, the most commonly used in computations being $\mathbb{Z}_2$. 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
