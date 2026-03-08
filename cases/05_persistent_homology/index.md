@@ -58,7 +58,7 @@ A simplex is defined as follows.
 Let $k,d \in \mathbb{N}$ with $k \leq d$. A geoemtric $k$-simplex $\sigma$ \subset $\mathbb{R}^d$ is the convex hull of $k+1$ affinely independent points $\\{ v_0, ..., v_k \\}$. That is
 
 $$
-\sigma = Conv \\{ v_0, ..., v_k \\} (1.0)
+\sigma = Conv \\{ v_0, ..., v_k \\} \qquad (1.0)
 $$
 
 ### Homology
