@@ -51,8 +51,6 @@ $$
 
 The subset $V$ is called convex if for each $x,y \in V$ the line segment between $x$ and $y$ lies inside $V$. Its convex hull, $Conv(V)$, is the smallest convex set containing $V$. The collection of points $\\{v_0,v_1,...,v_k \\}$ are affinely independent if $\\{ v_1 - v_0, ..., v_k-v_0 \\}$ are linearly independent. These difference vectors span a $k$-dimensional subspace of $\mathbb{R}^d$. 
 
-A simplex is defined as follows. 
-
 **Definition 3 (Simplex)**
 
 Let $k,d \in \mathbb{N}$ with $k \leq d$. A geoemtric $k$-simplex $\sigma \subset \mathbb{R}^d$ is the convex hull of $k+1$ affinely independent points $\\{ v_0, ..., v_k \\}$. That is
@@ -60,6 +58,14 @@ Let $k,d \in \mathbb{N}$ with $k \leq d$. A geoemtric $k$-simplex $\sigma \subse
 $$
 \sigma = Conv \\{ v_0, ..., v_k \\}. \qquad (1.0)
 $$
+
+**Definition 4 (Simplicial complex)**
+
+A geometric simplicial complex $K$ in $\mathbb{R}^d$ is a collection of geometric simplices such that
+
+1. every face of a simplex of $K$ is also in $K$
+2. the intersection of any two simplices of $K$ is either empty or a face of both.
+
 
 ### Homology
 
