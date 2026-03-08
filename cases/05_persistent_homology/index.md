@@ -43,7 +43,7 @@ We will not delve into the precise definition of simplicial complexes and their 
 
 Since data are not given in the form of simplicial complexes, the preliminary step to computation is to construct such complexes. A widely used construction is the so-called **Rips complex**. 
 
-We briefly introduce the necessary notation used in the remainder of this notes. Let $d,k \in \mathbb{N}$ and let $V = \\{v_0,v_1,...,v_k \\} \subset \mathbb{R}^d$ be a collection of points. The affine combination is any sum that satisfies 
+We briefly introduce the necessary notation used in the remainder of this notes. Let $d,k \in \mathbb{N}$ and let $V = \\{v_0,v_1,...,v_k \\} \subset \mathbb{R}^d$ be a collection of points. Their affine combination is any sum that satisfies 
 
 $$
 \sum_{i=1}^k \alpha_i v_i \qquad \text{with } \ \sum_{i=1}^k \alpha_i = 1.
@@ -58,7 +58,7 @@ A simplex is defined as follows.
 Let $k,d \in \mathbb{N}$ with $k \leq d$. A geoemtric $k$-simplex $\sigma$ \subset $\mathbb{R}^d$ is the convex hull of $k+1$ affinely independent points $\\{ v_0, ..., v_k \\}$. That is
 
 $$
-\sigma = Conv \\{ v_0, ..., v_k \\} \qquad (1.0)
+\sigma = Conv \\{ v_0, ..., v_k \\}. \qquad (1.0)
 $$
 
 ### Homology
