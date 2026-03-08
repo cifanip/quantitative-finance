@@ -41,8 +41,6 @@ As it turns out homotopy equivalent spaces have the same homology groups.
 
 We will not delve into the precise definition of simplicial complexes and their construction. We refer the interested reader to [^1] or to the many textbooks on this subject. The rough idea is the following: a simplicial complex is a space obtained by gluing simplices (points, line segments, triangles, and their higher-dimensional analogues) along their faces. When a topological space admits such a triangulation, its topological invariants (e.g., homology groups) can be computed from the corresponding simplicial complex. 
 
-Since data are not given in the form of simplicial complexes, the preliminary step to computation is to construct such complexes. A widely used construction is the so-called **Rips complex**. 
-
 We briefly introduce the necessary notation used in the remainder of this notes. Let $d,k \in \mathbb{N}$ and let $V = \\{v_0,v_1,...,v_k \\} \subset \mathbb{R}^d$ be a collection of points. Their affine combination is any sum that satisfies 
 
 $$
@@ -66,6 +64,7 @@ A geometric simplicial complex $K$ in $\mathbb{R}^d$ is a collection of geometri
 1. every face of a simplex of $K$ is also in $K$
 2. the intersection of any two simplices of $K$ is either empty or a face of both.
 
+Since data are not given in the form of simplicial complexes, the preliminary step to computation is to construct such complexes. This is in itslef is a rather large topic, which we will not touch upon here. We will just mention that such constructions take as input a sample $S$, subset of some metric space $X$, and scale $r$. A widely used construction is the so-called **Rips complex**. We write Rips$(S,r)$ to indicate of such complex at scale $r$. 
 
 ### Homology
 
