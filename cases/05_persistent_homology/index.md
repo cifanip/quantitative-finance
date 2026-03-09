@@ -128,7 +128,7 @@ $$
 c_1 \sim c_2 \qquad \text{ if } c_1-c_2 \in B_q.
 $$
 
-The homology class represented by a cycle $c$ is denoted by $\[c\]$. Besides $H_1$, an interesting homology group often computed in applications is $H_0$, whose dimension corresponds to the number of connected components. In the above exmaple we therefore have dim($H_0$)=1. 
+The homology class represented by a cycle $c$ is denoted by $\[c\]$. Besides $H_1$, an interesting homology group often computed in applications is $H_0$, whose dimension corresponds to the number of connected components. In the above exmaple we therefore have dim $(H_0)=1$. 
 
 
 
