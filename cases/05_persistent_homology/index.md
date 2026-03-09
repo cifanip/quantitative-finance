@@ -130,18 +130,18 @@ $$
 
 The homology class represented by a cycle $c$ is denoted by $\[c\]$. Besides $H_1$, an interesting homology group often computed in applications is $H_0$, whose dimension corresponds to the number of connected components. In the above exmaple we therefore have dim $(H_0)=1$. 
 
-The Betti numbers can be computed as follows. First, by the rank-nullity theorem applied to the linear map $\partial_p : C_p(K,\mathbb{F}) \to C_{p-1}(K,\mathbb{F})$ it follows that $\text{dim }C_p(K,\mathbb{F}) =  \text{dim ker } \partial_p + \text{dim rank } \partial_p$. But $\text{dim }C_p = n_p$ (the number of $p$-simplices in K). So we have
+The Betti numbers can be computed as follows. First, by the rank-nullity theorem applied to the linear map $\partial_p : C_p(K,\mathbb{F}) \to C_{p-1}(K,\mathbb{F})$ it follows that $\text{dim }C_p(K,\mathbb{F}) =  \text{dim ker } \partial_p + \text{rank } \partial_p$. But $\text{dim }C_p = n_p$ (the number of $p$-simplices in K). So we have
 
 $$
-\text{dim ker } \partial_p = np - \text{dim rank } \partial_p$. \qquad (1.3)
+\text{dim ker } \partial_p = np - \text{rank } \partial_p$. \qquad (1.3)
 $$
 
 Then, by definition of $H_q(K,\mathbb{F})$ and (1.3) we obtain
 
 $$
 \begin{aligned}
-\mathcal{b}_p &= \text{dim ker } \partial_p - \text{dim rank } \partial_{p+1} \\
-&= np - \text{dim rank } \partial_p - \text{dim rank } \partial_{p+1}. \qquad (1.4)
+\mathcal{b}_p &= \text{dim ker } \partial_p - \text{rank } \partial_{p+1} \\
+&= np - \text{rank } \partial_p - \text{rank } \partial_{p+1}. \qquad (1.4)
 \end{aligned}
 $$
 
