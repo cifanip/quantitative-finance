@@ -106,6 +106,6 @@ $$
 \partial^2  = 0. \qquad (1.2)
 $$
 
-As mentioned at the beginning of this section, the goal is to measure holes. The latter are represented by a specific chain called *chain*. 
+As mentioned at the beginning of this section, the goal is to measure holes. The latter are represented by a specific chains called *cycles*.  
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
