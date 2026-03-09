@@ -100,7 +100,7 @@ $$
 \partial_p \sigma \sum_{i=0}^p (-1)^i \langle v_0,v_1,...,v_{i-1},v_{i+1},...,v_p \rangle. \qquad (1.1)
 $$
 
-A key result in that the composition of two consecutive boundary maps is the trivial map. That is,
+A key result is that the composition of two consecutive boundary maps is the trivial map. That is,
 
 $$
 \partial^2  = 0. \qquad (1.2)
