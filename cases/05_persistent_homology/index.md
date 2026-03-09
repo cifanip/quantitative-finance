@@ -88,6 +88,18 @@ We can think of $p$-simplices in $K$ as base vetors for $C_p(K;\mathbb{F})$. Cle
 
 **Definition 7 (Boundary map)**
 
+The boundary map
+
+$$
+\partial_p: C_p(K;\mathbb{F}) \to C_{p-1}(K;\mathbb{F})
+$$
+
+is the linear map defined on the basis of $C_p(K;\mathbb{F})$ as follows. For each $p$-oriented simplex $\sigma = \langle v_0,...,v_p \rangle$ we define
+
+$$
+\partial_p \sigma \sum_{i=0}^p (-1)^i \langle v_0,v_1,...,v_{i-1},v_{i+1},...,v_p \rangle.
+$$
+
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
