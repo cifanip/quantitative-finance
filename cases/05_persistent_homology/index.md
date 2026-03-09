@@ -165,7 +165,7 @@ $$
 f_*\big([\alpha]\big) = [f_{\\#}(\alpha)]. \qquad (1.6)
 $$
 
-In essence, the map $f$ induces a map $f_\\# $between chains such that only the images of simplices $\sigma_i$ of dimension $q$ are retained. This chain map then induces a map $f_*$ on homology by sending $[\alpha]$ into $[f_{\\#}(\alpha)]$. 
+In essence, the map $f$ induces a map $f_{\\#}$ between chains such that only the images of simplices $\sigma_i$ of dimension $q$ are retained. This chain map then induces a map $f_*$ on homology by sending $[\alpha]$ into $[f_{\\#}(\alpha)]$. 
 
 **Definition 10 (Functoriality of induced maps)**
 
