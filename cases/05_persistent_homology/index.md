@@ -175,4 +175,6 @@ $$
 (g \circ f)_\\# = g_\\# \circ f_\\# \qquad (g \circ f)_* = g_* \circ f_*. \qquad \qquad (1.7)
 $$
 
+In simple terms, applying simplicial maps in sequence produces the same chain and homology maps as applying their composition.
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
