@@ -122,7 +122,7 @@ Let $K$ be a simplicial complex. Let $\mathbb{F}$ be a field and $q \in \mathbb{
 2. the group of $q$-boundaries as $B_q(K;\mathbb{F}) = \text{Im} \ \partial_{q+1} \leq Z_q(K;\mathbb{F}) \leq C_q(K;\mathbb{F})$
 3. $q$-homology group as the quotient $H_q(K;\mathbb{F}) = Z_q(K;\mathbb{F})/B_q(K;\mathbb{F})$.
 
-The dimension of $H_q$, called the Betti number $\mathcal{b}_q$, is what we are after. Let's shed some light on these definitions by the example in Figure 2. There are two independent cylces: $c_1 = \langle A,B \rangle + \langle B,C \rangle + \langle C,A \rangle$ and $c_2 = \langle B,C \rangle + \langle C,D \rangle + \langle D,B \rangle$. Thus dim($Z=2$). Hower $c_1$ is the boundary $\partial_2 \langle A,B,C \rangle$. Thus dim$ H =1$, i.e. we only have one hole. 
+The dimension of $H_q$, called the Betti number $\mathcal{b}_q$, is what we are after. Let's shed some light on these definitions by the example in Figure 2. There are two independent cylces: $c_1 = \langle A,B \rangle + \langle B,C \rangle + \langle C,A \rangle$ and $c_2 = \langle B,C \rangle + \langle C,D \rangle + \langle D,B \rangle$. Thus dim($Z_1=2$). Hower $c_1$ is the boundary $\partial_2 \langle A,B,C \rangle$. Thus dim($H_1=1$), i.e. we only have one hole. 
 
 
 
