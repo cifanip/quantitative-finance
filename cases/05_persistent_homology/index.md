@@ -167,7 +167,12 @@ $$
 
 In essence, the map $f$ induces a map $f_\\# $between chains such that only the images of simplices $\sigma_i$ of dimension $q$ are retained. This chain map then induces a map $f_*$ on homology by sending $[\alpha]$ into $[f_{\\#}(\alpha)]$. 
 
+**Definition 10 (Functoriality of induced maps)**
 
+Let $f:K \to L$ and $g: L \to M$ be simplicial maps. Then we have
 
-and homology groups 
+$$
+(g \circ f)_\\# = g_\\# \circ f_\\# \qquad (g \circ f)_\\* = g_\\* \circ f_\\*. \qquad \qquad (1.7)
+$$
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
