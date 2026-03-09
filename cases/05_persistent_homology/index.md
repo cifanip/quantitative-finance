@@ -118,6 +118,6 @@ As mentioned at the beginning of this section, the goal is to measure holes. The
 
 Let $K$ be a simplicial complex. Let $\mathbb{F}$ be a field and $q \in \mathbb{N}$. We define
 
-1. the group of $q$-cycles as $Z_q(K;\mathbb{F})$ = \text{ker} \partial_q \leq C_q(K;\mathbb{F})
+1. the group of $q$-cycles as $Z_q(K;\mathbb{F}) = \text{ker} \partial_q \leq C_q(K;\mathbb{F})$
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
