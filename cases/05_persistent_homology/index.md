@@ -74,6 +74,12 @@ Informally, homology detects holes of different dimensions in a simplicial compl
 
 Let $p \in \\{ 0,...,n \\}$ denote the number of simplices of dimension $p$ in $K$. A $p$-chain is a (formal) sum $\sum_{i=1}^{n_p} \lambda_i \sigma_i^p$ with $\lambda_i \in \mathbb{F}$ and $\sigma_i^p$ being a simplex of dimension $p$ in $K$. 
 
+<p align="center">
+  <img src="figures/chains.png" width="40%">
+</p>
+
+<p align="center"><b>Figure 2:</b> Example of addition of chains in $\mathbb{Z}_2$.</p>
+
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
