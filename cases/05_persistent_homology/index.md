@@ -80,8 +80,8 @@ Let $p \in \\{ 0,...,n \\}$ denote the number of simplices of dimension $p$ in $
 
 <p align="center"><b>Figure 2:</b> Example of addition of chains in $\mathbb{Z}_2$.</p>
 
+**Definition 6 (Chain gruop)**
 
-
-
+The chain group $C_p(K;\mathbb{F})$ is the vector space of all $p$-chains. 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
