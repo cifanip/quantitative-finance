@@ -103,7 +103,7 @@ $$
 A key result in that the composition of two consecutive boundary maps is the trivial map. That is,
 
 $$
-\partial^2 = \laprtial_{p-1} \partial_p = 0. \qquad (1.2)
+\partial^2 = \partial_{p-1} \circ \partial_p = 0. \qquad (1.2)
 $$
 
 
