@@ -145,4 +145,8 @@ $$
 \end{aligned}
 $$
 
+Thus, the computation of $\mathcal{b}_p$ is a purely linear algebra excercise, provided $n_p$ and the baoundary maps. 
+
+### Persistent Homology
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
