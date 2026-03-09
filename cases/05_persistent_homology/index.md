@@ -84,4 +84,6 @@ Let $p \in \\{ 0,...,n \\}$ denote the number of simplices of dimension $p$ in $
 
 The chain group $C_p(K;\mathbb{F})$ is the vector space of all $p$-chains. 
 
+We can think of $p$-simplices in $K$ as base vetors for $C_p(K;\mathbb{F})$. Clearly, $C_p(K,\mathbb{F}) \cong \mathbb{F}^{n_p}$. 
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
