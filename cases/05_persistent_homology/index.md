@@ -108,16 +108,16 @@ $$
 
 As mentioned at the beginning of this section, the goal is to measure holes. The latter are represented by a specific chains called *cycles*. In particular, cycles are chains whose boundary is zero. However, not all cycles represent holes, since they can simply be boundaries of a simplex. An example of these concepts is shown in Figure 3.
 
-**Definition 8 (Homology group)**
-
-Let $K$ be a simplicial complex. Let $\mathbb{F}$ be a field and $q \in \mathbb{N}$. We define
-
-1. the group of $q$-cycles as $Z_q(K;\mathbb{F})$ = \text{ker} \partial_q \leq C_q(K;\mathbb{F})
-
 <p align="center">
   <img src="figures/cycles.png" width="40%">
 </p>
 
 <p align="center"><b>Figure 3:</b> A cycle that is boundary (left) and a cycle that is a hole (right).</p>
+
+**Definition 8 (Homology group)**
+
+Let $K$ be a simplicial complex. Let $\mathbb{F}$ be a field and $q \in \mathbb{N}$. We define
+
+1. the group of $q$-cycles as $Z_q(K;\mathbb{F})$ = \text{ker} \partial_q \leq C_q(K;\mathbb{F})
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
