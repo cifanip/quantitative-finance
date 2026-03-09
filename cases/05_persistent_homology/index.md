@@ -116,8 +116,9 @@ As mentioned at the beginning of this section, the goal is to measure holes. The
 
 **Definition 8 (Homology group)**
 
-Let $K$ be a simplicial complex. Let $\mathbb{F}$ be a field and $q \in \mathbb{N}$. We define
+Let $K$ be a simplicial complex. Let $\mathbb{F}$ be a field and $q \in \mathbb{N}$. We define [^1]
 
 1. the group of $q$-cycles as $Z_q(K;\mathbb{F}) = \text{ker} \ \partial_q \leq C_q(K;\mathbb{F})$
+2. the group of $q$-boundaries as $B_q(K;\mathbb{F}) = \text{Im} \ \partial_{q+1} \leq Z_q(K;\mathbb{F}) \leq C_q(K;\mathbb{F})$
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
