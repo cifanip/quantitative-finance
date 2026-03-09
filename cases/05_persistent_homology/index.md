@@ -172,7 +172,7 @@ In essence, the map $f$ induces a map $f_\\# $between chains such that only the 
 Let $f:K \to L$ and $g: L \to M$ be simplicial maps. Then we have
 
 $$
-(g \circ f)_\\# = g_\\# \circ f_\\# \qquad (g \circ f)_\\* = g_\\* \circ f_\\*. \qquad \qquad (1.7)
+(g \circ f)_\\# = g_\\# \circ f_\\# \qquad (g \circ f)_* = g_* \circ f_*. \qquad \qquad (1.7)
 $$
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
