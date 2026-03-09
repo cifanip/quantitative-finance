@@ -162,7 +162,7 @@ $$
 Map $f_* : H_q(K;\mathbb{F}) \to H_q(L;\mathbb{F})$ is the linear map defined as 
 
 $$
-f_*\big([\alpha]\big) = [f_{\#}(\alpha)]. \qquad (1.6)
+f_*\big([\alpha]\big) = [f_{\sharp}(\alpha)]. \qquad (1.6)
 $$
 
 In essence, the map $f$ induces a map $f_{\\#}$ between chains such that only the images of simplices $\sigma_i$ of dimension $q$ are retained. This chain map then induces a map $f_*$ on homology by sending $[\alpha]$ into $[f_{\\#}(\alpha)]$. 
@@ -172,7 +172,7 @@ In essence, the map $f$ induces a map $f_{\\#}$ between chains such that only th
 Let $f:K \to L$ and $g: L \to M$ be simplicial maps. Then we have
 
 $$
-(g \circ f)_{\#} = g_{\#} \circ f_{\#} \qquad (g \circ f)_{*} = g_{*} \circ f_{*}. \qquad \qquad (1.7)
+(g \circ f)_{\sharp} = g_{\sharp} \circ f_{\sharp} \qquad (g \circ f)_{*} = g_{*} \circ f_{*}. \qquad \qquad (1.7)
 $$
 
 In simple terms, applying simplicial maps in sequence induces the same chain and homology maps as applying their composition.
