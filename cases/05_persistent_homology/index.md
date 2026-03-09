@@ -156,7 +156,7 @@ A few definition are needed to arrive at that of peristent homology.
 Let $f : K \to L$ be a simplicial map. The induced maps $f_\\#$ and $f_*$ are defined as follows. Map $f_\\# : C_q(K;\mathbb{F}) \to C_q(L;\mathbb{F})$ is the linear map defined as 
 
 $$
-f_{\#}\left(\sum_i a_i \sigma_i \right) = \sum_{ \\{ i \mid \dim(f(\sigma_i)) = q \\} } a_i f(\sigma_i). \qquad (1.5)
+f_{\sharp}\left(\sum_i a_i \sigma_i \right) = \sum_{ \\{ i \mid \dim(f(\sigma_i)) = q \\} } a_i f(\sigma_i). \qquad (1.5)
 $$
 
 Map $f_* : H_q(K;\mathbb{F}) \to H_q(L;\mathbb{F})$ is the linear map defined as 
