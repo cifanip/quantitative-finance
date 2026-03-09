@@ -120,7 +120,7 @@ Let $K$ be a simplicial complex. Let $\mathbb{F}$ be a field and $q \in \mathbb{
 
 1. the group of $q$-cycles as $Z_q(K;\mathbb{F}) = \text{ker} \ \partial_q \leq C_q(K;\mathbb{F})$
 2. the group of $q$-boundaries as $B_q(K;\mathbb{F}) = \text{Im} \ \partial_{q+1} \leq Z_q(K;\mathbb{F}) \leq C_q(K;\mathbb{F})$
-3. $q$=homology group as the quotient $H_q(K;\mathbb{F}) = Z_q(K;\mathbb{F})/B_q(K;\mathbb{F}).
+3. $q$=homology group as the quotient $H_q(K;\mathbb{F}) = Z_q(K;\mathbb{F})/B_q(K;\mathbb{F})$.
 
 The dimension of $H_q$, called the Betti number $\mathcal{b}_q$, is what we are after. 
 
