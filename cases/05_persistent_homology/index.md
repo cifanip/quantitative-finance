@@ -106,6 +106,12 @@ $$
 \partial^2  = 0. \qquad (1.2)
 $$
 
-As mentioned at the beginning of this section, the goal is to measure holes. The latter are represented by a specific chains called *cycles*.  
+As mentioned at the beginning of this section, the goal is to measure holes. The latter are represented by a specific chains called *cycles*. In particular, cycles are chains whose boundary is zero. However, not all cycles represent holes, since they can simply be boundaries of a simplex. An example of these concepts is shown in Figure 3.
+
+<p align="center">
+  <img src="figures/chains.png" width="40%">
+</p>
+
+<p align="center"><b>Figure 3:</b> A cycle that is boundary (left) and a cycle that is a hole (right).</p>
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
