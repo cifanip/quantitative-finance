@@ -177,4 +177,24 @@ $$
 
 In simple terms, applying simplicial maps in sequence induces the same chain and homology maps as applying their composition.
 
+**Definition 11 (Filtration)**
+
+Let $K$ be a simplicial complex. A filtration of $K$ is a squence of subcomplexes
+
+$$
+K_1 \leq K_2 \leq ... \leq K_m = K.
+$$
+
+The filtration can technically be written using natural inclusion maps
+
+$$
+K_1 \xrightarrow{i_{1,2}} K_2 \xrightarrow{i_{2,3}} \cdots \xrightarrow{i_{m-1,m}} K_m = K.
+$$
+
+This indices the linear maps
+
+$$
+H_q(K_1;F) \xrightarrow{(i_{1,2})_*} H_q(K_2;F) \xrightarrow{(i_{2,3})_*} \cdots \xrightarrow{(i_{m-1,m})_*} H_q(K_m;F) = H_q(K;F)
+$$
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
