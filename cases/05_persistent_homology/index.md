@@ -149,4 +149,10 @@ Thus, the computation of $\mathcal{b}_p$ is a purely linear algebra excercise, p
 
 ### Persistent Homology
 
+A few definition are needed to arrive at that of peristent homology. 
+
+**Definition 9 (Induced maps)**
+
+Let $f : K \to L$ be a simplicial map. The induced maps $f_\#$ and $f_*$
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
