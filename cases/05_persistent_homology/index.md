@@ -172,7 +172,7 @@ In essence, the map $f$ induces a map $f_{\\#}$ between chains such that only th
 Let $f:K \to L$ and $g: L \to M$ be simplicial maps. Then we have
 
 $$
-(g \circ f)_{\\#} = g_{\\#} \circ f_{\\#} \qquad (g \circ f)_{*} = g_{*} \circ f_{*}. \qquad \qquad (1.7)
+(g \circ f)_{\#} = g_{\#} \circ f_{\#} \qquad (g \circ f)_{*} = g_{*} \circ f_{*}. \qquad \qquad (1.7)
 $$
 
 In simple terms, applying simplicial maps in sequence induces the same chain and homology maps as applying their composition.
