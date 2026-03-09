@@ -125,7 +125,7 @@ Let $K$ be a simplicial complex. Let $\mathbb{F}$ be a field and $q \in \mathbb{
 The dimension of $H_q$, called the Betti number $\mathcal{b}_q$, is what we are after. Let's shed some light on these definitions by the example in Figure 2. There are two independent cylces: $c_1 = \langle A,B \rangle + \langle B,C \rangle + \langle C,A \rangle$ and $c_2 = \langle B,C \rangle + \langle C,D \rangle + \langle D,B \rangle$. Thus dim $(Z_1)=1$. Hower $c_1$ is the boundary $\partial_2 \langle A,B,C \rangle$. Thus dim $(H_1)=1$, i.e. we only have one hole. More precicely, elements of $H_q$ are equivalence classes of $q$-cycles. Given two elements $c_1,c_2 \in Z_q$, the cycles represent the same homology class if they differ by a boundary:
 
 $$
-c_1 \sim c_2 \qquad \text{ if } c_1-c_2 \in B_q.
+c_1 \sim c_2 \qquad \text{ if   } c_1-c_2 \in B_q.
 $$
 
 The homology class represented by a cycle $c$ is denoted by $\[c\]$. Besides $H_1$, an interesting homology group often computed in applications is $H_0$, whose dimension corresponds to the number of connected components. In the above exmaple we therefore have dim $(H_0)=1$. 
