@@ -162,7 +162,12 @@ $$
 Map $f_* : H_q(K;\mathbb{F}) \to H_q(L;\mathbb{F})$ is the linear map defined as 
 
 $$
-f_*\big([\alpha]\big) = [f_{\\#}(\alpha)]. . \qquad (1.6)
+f_*\big([\alpha]\big) = [f_{\\#}(\alpha)]. \qquad (1.6)
 $$
 
+In essence, the map $f$ induces a map $f_\\# $between chains such that only the images of simplices $\sigma_i$ of dimension $q$ are retained. This chain map then induces a map $f_*$ on homology by sending $[\alpha]$ into $[f_{\\#}(\alpha)]$. 
+
+
+
+and homology groups 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
