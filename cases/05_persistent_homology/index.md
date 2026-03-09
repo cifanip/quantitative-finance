@@ -188,13 +188,13 @@ $$
 The filtration can technically be written using natural inclusion maps
 
 $$
-K_1 \xrightarrow{i_{1,2}} K_2 \xrightarrow{i_{2,3}} \cdots \xrightarrow{i_{m-1,m}} K_m = K.
+K_1 \xrightarrow{i_{1,2}} K_2  \cdots \xrightarrow{i_{m-1,m}} K_m = K.
 $$
 
 This indices the linear maps
 
 $$
-H_q(K_1;F) \xrightarrow{(i_{1,2})_*} H_q(K_2;F) \xrightarrow{(i_{2,3})_*} \cdots \xrightarrow{(i_{m-1,m})_*} H_q(K_m;F) = H_q(K;F)
+H_q(K_1;F) \xrightarrow{(i_{1,2})_*} H_q(K_2;F) \cdots \xrightarrow{(i_{m-1,m})_*} H_q(K_m;F) = H_q(K;F)
 $$
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
