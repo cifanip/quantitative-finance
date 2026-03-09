@@ -203,6 +203,6 @@ $$
 (i_{s,t})_* : H_q(K_s;F) \to H_q(K_t;F) \qquad (1.8)
 $$
 
-for all $0 \leq s \leq t \leq m$. 
+for all $0 \leq s \leq t \leq m$. The **persistent Betti numbers** are defined as follows: $\beta_{s,t}^q = \text{rank }(i_{s,t})_*$. 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
