@@ -103,8 +103,9 @@ $$
 A key result in that the composition of two consecutive boundary maps is the trivial map. That is,
 
 $$
-\partial^2 = \partial_{p-1} \circ \partial_p = 0. \qquad (1.2)
+\partial^2  = 0. \qquad (1.2)
 $$
+
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
