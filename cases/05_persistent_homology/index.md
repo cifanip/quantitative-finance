@@ -97,9 +97,14 @@ $$
 is the linear map defined on the basis of $C_p(K;\mathbb{F})$ as follows. For each $p$-oriented simplex $\sigma = \langle v_0,...,v_p \rangle$ we define
 
 $$
-\partial_p \sigma \sum_{i=0}^p (-1)^i \langle v_0,v_1,...,v_{i-1},v_{i+1},...,v_p \rangle.
+\partial_p \sigma \sum_{i=0}^p (-1)^i \langle v_0,v_1,...,v_{i-1},v_{i+1},...,v_p \rangle. \qquad (1.1)
 $$
 
+A key result in that the composition of two consecutive boundary maps is the trivial map. That is,
+
+$$
+\partial^2 = \laprtial_{p-1} \partial_p = 0. \qquad (1.2)
+$$
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
