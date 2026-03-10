@@ -223,7 +223,14 @@ To illustrate the method in a finance-oriented setting, we consider synthetic re
 
 A transition matrix $A$ is given as follows
 
+$$
+A =
+\begin{bmatrix}
+0.95 & 0.05 \\
+0.1 & 0.9
+\end{bmatrix}
+$$
 
-
+This indicates that once either regime is established, it is likely to persist. Conditional on the current state, the observed returns are drawn from a state-dependent Gaussian distribution
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
