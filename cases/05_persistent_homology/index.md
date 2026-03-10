@@ -217,4 +217,8 @@ The arrows shown below the filtration represent the birth and death of homologic
 
 The long-lived elemetns of $H_q$ are deemed important in topological data analysis, as they represent a signature of the underlying process. Persistent homology is therefore a powerful tool for data analysis and processing, and it is often combined with statistical or machine learning forecasting methods to extract meaningful patterns and improve predictive modeling. 
 
+## 2. Computations
+
+
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
