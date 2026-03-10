@@ -245,6 +245,14 @@ Figure 5 shows $r_t$ computed over $1000$ samples.
 
 <p align="center"><b>Figure 4:</b> Process $r_t$ over time.</p>
 
+The process $r_t$ can be interpreted as one component of the market, for example the return of a stock index. We suppose that $r_t$ is the only observable market variable, while the market itself is governed by a higher-dimensional system. This situation is common in finance and many other scientific fields. To recover aspects of the underlying dynamics, one constructs sliding-window embeddings
 
+$$
+Y_t = \\{ r_t, r_{t+1},...,r_{t+m+1}, \\}
+$$
+
+to obtain a point-cloud in $\mathbb{R}^m$. This approach is formally motivated by Takens’ theorem, which shows that for deterministic dynamical systems, under suitable conditions, the full dynamics can be reconstructed from a single observable when the embedding dimension $m$ is sufficiently large. For stochastic processes, this reconstruction should be interpreted only as an approximation. In practice, the choice of $m$ is often determined empirically through parameter tuning. Here we find $m=8$ to be adeguate. 
+
+Once the point cloud is created, one has to generate a filtration and compute the persistent Betti numbers. 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
