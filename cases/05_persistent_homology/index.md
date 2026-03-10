@@ -237,6 +237,14 @@ $$
 \mathcal{N}(0,0.01), \text{ for $x_t=1$; } \qquad \mathcal{N}(0,0.1), \text{ for $x_t=2$.}
 $$
 
+Figure 5 shows $r_t$ computed over $1000$ samples.  
+
+<p align="center">
+  <img src="figures/rt.png" width="60%">
+</p>
+
+<p align="center"><b>Figure 4:</b> Process $r_t$ over time.</p>
+
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
