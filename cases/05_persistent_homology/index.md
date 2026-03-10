@@ -211,7 +211,7 @@ Persisten Betti numbers are often visualized through a so-called barcode. Figure
   <img src="figures/PH_barcode.png" width="60%">
 </p>
 
-<p align="center"><b>Figure 4:</b> Example of barcode of first persistent homology group.</p>
+<p align="center"><b>Figure 4:</b> Example of barcode of the first persistent homology group.</p>
 
 The arrows shown below the filtration represent the birth and death of homologically non-trivial loops. In $K_2$ a first hole is detected, which becomes trivial in $K_3$. Two subsequent holes are detected in $K_3$ and $K_4$, respectively, which endure beyond $K_4$. 
 
