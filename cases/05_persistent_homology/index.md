@@ -251,7 +251,7 @@ $$
 Y_t = \\{ r_t, r_{t+1},...,r_{t+m+1}, \\}
 $$
 
-to obtain a point-cloud in $\mathbb{R}^m$. This approach is formally motivated by Takens’ theorem, which shows that for deterministic dynamical systems, under suitable conditions, the full dynamics can be reconstructed from a single observable when the embedding dimension $m$ is sufficiently large. For stochastic processes, this reconstruction should be interpreted only as an approximation. In practice, the choice of $m$ is often determined empirically through parameter tuning. Here we find $m=8$ to be adeguate. 
+to obtain a point-cloud in $\mathbb{R}^m$. This approach is formally motivated by **Takens’ theorem**, which shows that for deterministic dynamical systems, under suitable conditions, the full dynamics can be reconstructed from a single observable when the embedding dimension $m$ is sufficiently large. For stochastic processes, this reconstruction should be interpreted only as an approximation. In practice, the choice of $m$ is often determined empirically through parameter tuning. Here we find $m=8$ to be adeguate. 
 
 Once the point cloud is created, one has to generate a filtration and compute the persistent Betti numbers. To accomplish such tasks we adopt the open-source GUDHI library [^2]
 
