@@ -234,8 +234,9 @@ $$
 This indicates that once either regime is established, it is likely to persist. Conditional on the current state, the observations $r_t$ are generated as a stochastic process with state-dependent Gaussian distribution $r_t  \| x_t \sim \mathcal{N}(0,\sigma_{x_t})$. The emission distributions are given by
 
 $$
-\mathcal{N}(0,0.01), \text{ for state $1$ } \qquad \mathcal{N}(0,0.01), \text{ for state $2$.}
+\mathcal{N}(0,0.01), \text{ for $x_t=1$; } \qquad \mathcal{N}(0,0.01), \text{ for $x_t=2$.}
 $$
+
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
