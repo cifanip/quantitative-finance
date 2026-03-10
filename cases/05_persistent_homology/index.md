@@ -208,11 +208,13 @@ for all $0 \leq s \leq t \leq m$. The **persistent Betti numbers** are defined a
 Persisten Betti numbers are often visualized through a so-called barcode. Figure 4 shows an example of barcode for the first homology group. 
 
 <p align="center">
-  <img src="figures/PH_barcode.png" width="40%">
+  <img src="figures/PH_barcode.png" width="60%">
 </p>
 
 <p align="center"><b>Figure 4:</b> Example of barcode of first persistent homology group.</p>
 
 The arrows shown below the filtration represent the birth and death of homologically non-trivial loops. In $K_2$ a first hole is detected, which becomes trivial in $K_3$. Two subsequent holes are detected in $K_3$ and $K_4$, respectively, which endure beyond $K_4$. 
+
+The long-lived elemetns of $H_q$ are deemed important in topological data analysis, as they represent a signature of the underlying process. Persistent homology is therefore a powerful tool for data analysis and processing, and it is often combined with statistical or machine learning forecasting methods to extract meaningful patterns and improve predictive modeling. 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
