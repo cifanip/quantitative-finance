@@ -231,6 +231,6 @@ A =
 \end{bmatrix}
 $$
 
-This indicates that once either regime is established, it is likely to persist. Conditional on the current state, the observed returns are drawn from a state-dependent Gaussian distribution
+This indicates that once either regime is established, it is likely to persist. Conditional on the current state, the observed returns are drawn from a state-dependent Gaussian distribution $r_t  \| x_t \sim \mathcal{N}(0,\sigma_{x_t})$. 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
