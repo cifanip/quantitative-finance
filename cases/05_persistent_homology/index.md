@@ -9,7 +9,7 @@ Persistent Homology is concerned with the studies of the shape of data by tracki
 
 The theory presented in these notes is based on the lecture notes Introduction to Persistent Homology [^1]. They are intended as a condensed summary of the material, and any mistakes are my own. I am grateful to the author for making this material publicly available.
 
-After introducing the fundamental concepts, a numerical example is presented to illustrate their application.
+After introducing the fundamental concepts, a numerical example is presented to illustrate their application. The open-source library GUDHI [^2] has been used to generate part of the presented results.
 
 ## 1. Theory
 
