@@ -203,7 +203,7 @@ $$
 (i_{s,t})_* : H_q(K_s;F) \to H_q(K_t;F) \qquad (1.8)
 $$
 
-for all $0 \leq s \leq t \leq m$. The **persistent Betti numbers** are defined as follows: $\beta\_{s,t}^q = rank (i\_{s,t})$. Suppose for example that a certain filtration level, for example $s=2$, we have detected two holes, i.e. $\text{dim }H\_1(K\_2,\mathbb{F})=2$. At a later stage, $t=3$, we find that $\beta_{2,3}^1=1$. This means that only one hole remains homologically non-trivial in $K_3$, while the other has become a boundary in the larger complex. 
+for all $0 \leq s \leq t \leq m$. The **persistent Betti numbers** are defined as follows: $\beta$. Suppose for example that a certain filtration level, for example $s=2$, we have detected two holes, i.e. $\text{dim }H\_1(K\_2,\mathbb{F})=2$. At a later stage, $t=3$, we find that $\beta_{2,3}^1=1$. This means that only one hole remains homologically non-trivial in $K_3$, while the other has become a boundary in the larger complex. 
 
 Persisten Betti numbers are often visualized through a so-called barcode. Figure 4 shows an example of barcode for the first homology group. 
 
