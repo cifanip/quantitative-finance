@@ -207,6 +207,10 @@ for all $0 \leq s \leq t \leq m$. The **persistent Betti numbers** are defined a
 
 Persisten Betti numbers are often visualized through a so-called barcode. Figure 4 shows an example of barcode for the first homology group. 
 
+<p align="center">
+  <img src="figures/PH_barcode.png" width="40%">
+</p>
 
+<p align="center"><b>Figure 4:</b> Example of barcode of first persistent homology group.</p>
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
