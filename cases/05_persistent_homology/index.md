@@ -5,7 +5,7 @@ layout: default
 
 # Persistent Homology
 
-Most real-world systems generate data that has an underlying shape. With shape comes a topological structure. Persistent Homology studies how topological features appear and disappear across multiple scales within data. It finds applications in a wide range of fields among which computational biology, finance, image processing and many others. 
+Most real-world systems generate data that has an underlying shape. With shape comes topological structure. Persistent Homology studies how topological features appear and disappear across multiple scales within data. It finds applications in a wide range of fields among which computational biology, finance, image processing and many others. 
 
 The theory presented in these notes is based on the lecture notes Introduction to Persistent Homology [^1]. They are intended as a condensed summary of the material, and any mistakes are my own. I am grateful to the author for making this material publicly available.
 
