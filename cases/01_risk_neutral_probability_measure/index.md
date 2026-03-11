@@ -5,7 +5,7 @@ layout: default
 
 # Risk-Neutral Probability Measure
 
-This sections summarizes results of probability theory necessary to arraive at the definition of the risk-neutral probability measure. The latter is a fundamental concept in option pricing theory. A method on how to compute the risk-neutral probability measure from market data is also provided. 
+This sections summarizes results of probability theory necessary to arrive at the definition of the risk-neutral probability measure. The latter is a fundamental concept in option pricing theory. A method on how to compute the risk-neutral probability measure from market data is also provided. 
 
 The theory presented in these notes is based on the lecture notes Stochastic Calculus, Financial Derivatives and PDE's [^1], by prof. S. Calogero. They are intended as a condensed summary of the material, and any mistakes are my own. I am grateful to the author for making this material publicly available.
 
@@ -21,7 +21,7 @@ $$
 \mathbb{E}[M(t)\mid \mathcal{F}_s] = M(s), \qquad 0 \le s \le t, \qquad (1.0)
 $$
 
-for all $t \ge 0$. From this defintion is clear that the process $M(t)$, conditioned on all the past informations up to time $s$, will on average neither rise nor fall on everage at future time $t$. As it will be clear in the next sections, condition (1.0) is tightly linked to arbitrage-free markets.
+for all $t \ge 0$. From this defintion is clear that the process $M(t)$, conditioned on all the past informations up to time $s$, will on average neither rise nor fall at future time $t$. As it will be clear in the next sections, condition (1.0) is tightly linked to arbitrage-free markets.
 
 ### Novikov's condition
 Let $\\{ \theta(t) \\}\_{t \ge 0} \in \mathcal{C}^0[\mathcal{F}(t)]$ satisfy
