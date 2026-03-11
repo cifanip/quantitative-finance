@@ -246,7 +246,7 @@ to obtain a point-cloud in $\mathbb{R}^m$. This approach is formally motivated b
 Once the point cloud is created, one has to generate a filtration and compute the persistent Betti numbers. To accomplish this task we adopt the open-source GUDHI library [^2]. Figure 6 presents the persistent diagram of the embedding of the L96 system (left panel) and that of an Ornstein–Uhlenbeck process (right panel) with correlation time $\tau=1$. 
 
 <p align="center">
-  <img src="figures/ph_L96.png" width="40%">
+  <img src="figures/ph_L96.png" width="45%">
   <img src="figures/ph_OU.png" width="45%">
 </p>
 
