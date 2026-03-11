@@ -74,7 +74,7 @@ $$
 dV(t) = h_{S}(t) dS(t) + h_{B}(t) dB(t). \qquad (1.4)
 $$
 
-That is, any change in value resulting from a variation in the number of shares held in the stock or the bond must offset each other. In other words, changes in $V(t)$ arise solely from changes in the values of the stock and the bond. 
+That is, changes in $V(t)$ arise solely from changes in the values of the stock and the bond and not due to changes in the number of shares. 
 
 Now let $\\{ \theta(t) \\}\_{t \ge 0}$ be the stochastic process
 
@@ -168,7 +168,7 @@ with $K$ the strike price, one can solve (1.9) analytically and arrive at the Bl
 ## 2. Computation
 
 ### Risk-neutral probability density
-With the abive assumptions given, Eq. (1.9) can be solved, for example for call options:
+With the above assumptions given, Eq. (1.9) can be solved, for example for call options:
 
 $$
 \Pi(S,t) = e^{-R(T-t)} \int_K^\infty p(Q,T | S,t )(Q-K) dQ, \qquad (2.0)
