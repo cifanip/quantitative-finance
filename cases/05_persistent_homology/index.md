@@ -235,15 +235,15 @@ where $x_{-1}=x_{N-1}$, $x_0=x_N$, $x_{N+1}=x_1$ and $N \ge 4$. Here we set $N=5
 
 <p align="center"><b>Figure 5:</b> $x(t)$ for the L96 system projected onto the first three principal components.</p>
 
-Although the trajectory appears irregular and chaotic, the system remains confined to a bounded region of the phase space, indicating the presence of an underlying attractor. In practise, however, one does not have access to the full dynamical system, but rather only to a few observables. In this spirit, here we suppose that $x_1(t)=y(t)$ is the only observable. In finance, for example, such process can be interpreted as one component of the market, for example the return of a stock index. To recover aspects of the underlying dynamics, one constructs sliding-window embeddings
+Although the trajectory appears irregular and chaotic, the system remains confined to a bounded region of the phase space, indicating the presence of an underlying attractor. In practise, however, one does not have access to the full dynamical system, but rather only to a few observables. In this spirit, here we suppose that $x_1(t)=y(t)$ is the only observable. In finance, for example, such a process could represent one component of the market, for example the return of a stock index. To recover aspects of the underlying dynamics, one constructs sliding-window embeddings
 
 $$
-Y_t = \\{ y_t, y_{t-1},...,y_{t-m-1}, \\}
+Y_t = \\{ y_t, y_{t-1},...,y_{t-m+1}, \\} \qquad (2.1)
 $$
 
-to obtain a point-cloud in $\mathbb{R}^m$. This approach is formally motivated by **Takens’ theorem**, which shows that for deterministic dynamical systems, under suitable conditions, the full dynamics can be reconstructed from a single observable when the embedding dimension $m$ is sufficiently large. For stochastic processes, this reconstruction should be interpreted only as an approximation. In practice, the choice of $m$ is often determined empirically through parameter tuning. Here we find $m=8$ to be adeguate. 
+to obtain a point-cloud in $\mathbb{R}^m$. This approach is formally motivated by **Takens’ theorem**, which shows that for deterministic dynamical systems, under suitable conditions, the attractor dynamics can be reconstructed from a single observable when the embedding dimension $m$ is sufficiently large. In practice, the choice of $m$ is often determined empirically through parameter tuning. Here we find $m=7$ to be adeguate. 
 
-Once the point cloud is created, one has to generate a filtration and compute the persistent Betti numbers. To accomplish this task we adopt the open-source GUDHI library [^2]. 
+Once the point cloud is created, one has to generate a filtration and compute the persistent Betti numbers. To accomplish this task we adopt the open-source GUDHI library [^2]. Figure 6 presents the persistent diagram of the embedding (2.1).
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
 [^2]: The GUDHI Project (2023). *GUDHI User and Reference Manual*. Available at: https://gudhi.inria.fr/
