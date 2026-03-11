@@ -3,7 +3,7 @@ title: LSTM
 layout: default
 ---
 
-# Long Short-Term Memory Neural Network
+# LSTM forecasting
 
 In this page we illustrate the capabilities of a LSTM neural network in terms of forecasting. Here we assume that the reader is already familiar with theory behind LSTM networks and with neural networks in general.
 
