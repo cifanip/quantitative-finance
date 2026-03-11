@@ -175,7 +175,7 @@ $$
 (g \circ f)_{\sharp} = g_{\sharp} \circ f_{\sharp} \qquad (g \circ f)_* = g_* \circ f_*. \qquad \qquad (1.7)
 $$
 
-In simple terms, applying simplicial maps in sequence induces the same chain and homology maps as applying their composition.
+In simple terms, the composition of simplicial maps induces a map on homology groups which behaves well with respect to composition. 
 
 **Definition 11 (Filtration)**
 
@@ -215,7 +215,8 @@ Persisten Betti numbers are often visualized through a so-called barcode. Figure
 
 The arrows shown below the filtration represent the birth and death of homologically non-trivial loops. In $K_2$ a first hole is detected, which becomes trivial in $K_3$. Two subsequent holes are detected in $K_3$ and $K_4$, respectively, which endure beyond $K_4$. 
 
-The long-lived elemetns of $H_q$ are deemed important in topological data analysis, as they represent a signature of the underlying process. Persistent homology is therefore a powerful tool for data analysis and processing, and it is often combined with statistical or machine learning forecasting methods to extract meaningful patterns and improve predictive modeling. 
+The long-lived elemetns of $H_q$ are deemed important in topological data analysis, as they represent a signature of the underlying process. 
+Detecing such structures is the essence of persistent homology computations. Furthermore, the latter is often used as a preprocessing step to prepare data as input for subsequent statistical or machine learning forecasting methods. 
 
 ## 2. Computations
 
