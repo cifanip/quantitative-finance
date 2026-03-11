@@ -56,7 +56,7 @@ Then $\\{ \widetilde{W}(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-Brownia
 As a result we have that $\widetilde{\mathbb{E}} [\widetilde{W}(t)\|\mathcal{F}\_W(s)] = \widetilde{W}(s)$, for $0 \le s \le t$. 
 
 ### Arbitrage-free market
-We consider now a 1+1 dimensional market, that is a portoflio made of $\\{h\_{S(t)},h\_{B(t)} \\}$ shares of a stock $S(t)$ and of a bond $B(t)$. As is customary, the stock price $S(t)$ is assumed to evolve according to a geometric Brownian motion
+We consider now a 1+1 dimensional market, that is a portfolio made of $\\{h\_{S(t)},h\_{B(t)} \\}$ shares of a stock $S(t)$ and of a bond $B(t)$. As is customary, the stock price $S(t)$ is assumed to evolve according to a geometric Brownian motion
 
 $$
 dS(t) = \mu(t)S(t)dt + \sigma(t) S(t) dW(t)
@@ -116,7 +116,7 @@ $$
 \widetilde{E}[D(t)V(t)] = \widetilde{E}[D(0)V(0)] = \widetilde{E}[V(0)]. \qquad (1.7)
 $$
 
-Suppose, for the sake of contradiction, that the portofolio is an arbitrage. Then $V(0)=0$ and since $D(0)=1$ we have $V^*(0)=0$. By (1.7) we know that
+Suppose, for the sake of contradiction, that the portfolio is an arbitrage. Then $V(0)=0$ and since $D(0)=1$ we have $V^*(0)=0$. By (1.7) we know that
 
 $$
 \widetilde{E}[V^*(t)] = 0. \qquad (1.8)
@@ -127,8 +127,8 @@ Now, let $T>0$ such that $\mathbb{P}(V(T) \ge 0)=1$ and $\mathbb{P}(V(T) > 0) > 
 ### European option pricing
 Consider a European option with pay-off $Y$ at maturity time $T>0$. Denote by $\Pi\_Y(t)$ the price of this derivative when sold at $t<T$. We make the following assumptions:
 
-1. the seller will only invest the premium $\Pi\_Y(t)$ in the $1+1$ dimensional market made of the underlysing stock and a bond.
-2. the portfolio is self-sinancing.
+1. the seller will only invest the premium $\Pi\_Y(t)$ in the $1+1$ dimensional market made of the underlying stock and a bond.
+2. the portfolio is self-financing.
 
 By (1.6) we have that
 
@@ -184,13 +184,13 @@ e^{-R(T-t)} \frac{\partial }{\partial K} \Pi(S,t) &= \frac{\partial }{\partial K
 \end{aligned}
 $$
 
-Deriving again with respet to $K$ we have
+Deriving again with respect to $K$ we have
 
 $$
 e^{-R(T-t)} \frac{\partial^2}{\partial K^2}\Pi(S,t) = p(K,T|S,t). \qquad (2.1)
 $$
 
-Thus, given an option chain one can reconstruct numerically the dendity $p$ from discrete derivatives of the oprion price w.r.t. strike price. 
+Thus, given an option chain one can reconstruct numerically the dendity $p$ from discrete derivatives of the option price w.r.t. strike price. 
 
 <figure align="center">
   <img src="figures/rnp.png" width="500">
