@@ -5,7 +5,7 @@ layout: default
 
 # Pairs Trading
 
-In essence, pairs trading aims to construct a mean-reverting process by combining price signals that contain drift. If such an endeavour is successful, one obtains a statistical arbitrage opportunity. A long position initiated at a price well below the mean of the process will generate a positive return when the process will revert to its mean. The opposite is be true for a short position. 
+Pairs trading aims to construct a stationary process by a linear combination of signals that contain drift. If this procedure is successful, one obtains a statistical arbitrage opportunity. By initiating a long position at a price well below the mean of the process, by the stationarity of the process, one generates a positive return when closing the position at around the mean. The opposite opportunity presents itslef for short selling.
 
 The theory presented in these notes is based on the textbook [^1]. They are intended as a condensed summary of the material regarding cointegration.
 
@@ -52,13 +52,13 @@ $$
 $$
 
 ### Integrated processes
-Consider now a $VAR(1)$ process. A particular scenario of interest is the case in which only unit root is present and all other roots are outside of the unit circle. For a centered univariate process we have
+Consider now a $VAR(1)$ process. A particular scenario of interest is the case in which only a unit root is present and all other roots are outside of the unit circle. For a centered univariate process we have
 
 $$
 y_t = y_{t-1}+u_t, \qquad (1.7)
 $$
 
-that is, $y_t$ is a random walk. In general, univariate processes with $d$ unit roots is called *integrated of order* $d$ or $I(d)$. Process (1.7) is then $I(1)$ and can be made stable by differentiation:
+that is, $y_t$ is a random walk. In general, univariate processes with $d$ unit roots are called *integrated of order* $d$ or $I(d)$. Process (1.7) is then $I(1)$ and can be made stable by differentiation:
 
 $$
 \Delta y_t := (1-L) y_{t} = u_t, \qquad (1.8)
@@ -79,7 +79,7 @@ $$
 y_t = A_1 y_{t-1} + A_2 y_{t-2} +u_t. \qquad (1.10)
 $$
 
-Suppose that the process is unstable, and in particular one or more roots are unitary while the rest of them lies outside of the nit circle (see condition (1.6)). By the former assumptions it follows that $\|I-A_1-A_2\|=0$ and thus the matrix
+Suppose that the process is unstable, and in particular one or more roots are unitary while the rest of them lies outside of the unit circle (see condition (1.6)). By the former assumptions it follows that $\|I-A_1-A_2\|=0$ and thus the matrix
 
 $$
 \Pi := -(I-A_1-A_2) \qquad (1.11)
@@ -93,7 +93,7 @@ $$
 
 with $\Gamma_1 := -A_2$. Since the right-hand side only contains stationary processes, it follows that $\alpha \beta'y_{t-1}$ must be stationary. Multiplication by the left inverse $(\alpha' \alpha)^{-1} \alpha'$ isolates the cointegrating relation $\beta' y_t$. 
 
-The interesting case in practise is often when all individual variables are either $I(1)$ or $I(0)$. A $K$-dimensional $VAR(p)$ process is called *cointegrated* if rank $r$ if
+The interesting case in practise is often when all individual variables are either $I(1)$ or $I(0)$. A $K$-dimensional $VAR(p)$ process is called *cointegrated* of rank $r$ if
 
 $$
 \Pi := -(I-A_1- \cdots - A_p)
