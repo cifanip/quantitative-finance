@@ -243,13 +243,14 @@ $$
 
 to obtain a point-cloud in $\mathbb{R}^m$. This approach is formally motivated by **Takens’ theorem**, which shows that for deterministic dynamical systems, under suitable conditions, the attractor dynamics can be reconstructed from a single observable when the embedding dimension $m$ is sufficiently large. In practice, the choice of $m$ is often determined empirically through parameter tuning. Here we find $m=7$ to be adeguate. 
 
-Once the point cloud is created, one has to generate a filtration and compute the persistent Betti numbers. To accomplish this task we adopt the open-source GUDHI library [^2]. Figure 6 presents the persistent diagram of the embedding (2.1).
+Once the point cloud is created, one has to generate a filtration and compute the persistent Betti numbers. To accomplish this task we adopt the open-source GUDHI library [^2]. Figure 6 presents the persistent diagram of the embedding of the L96 system (left panel) and that of an Ornstein–Uhlenbeck process (right panel) with correlation time $\tau=1$. 
 
 <p align="center">
-  <img src="figures/ph_L96.png" width="60%">
+  <img src="figures/ph_L96.png" width="40%">
+  <img src="figures/ph_OU.png" width="45%">
 </p>
 
-<p align="center"><b>Figure 6:</b> Persistent diagram of the L96 embedding (2,1).</p>
+<p align="center"><b>Figure 6:</b> Persistent diagram of the L96 embedding (left panel) and of the OU embedding (right panel).</p>
 
 The red points (dimension 0) represent connected components that rapidly merge, indicating that the point cloud forms a single cluster. The blue points (dimension 1) correspond to holes in the data. A few elements in $H_1$ xhibit moderate persistence and lie noticeably far from the diagonal. These features reflect recurrent geometric structures of the underlying attractor. 
 
