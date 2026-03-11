@@ -128,7 +128,7 @@ A number of issues arise in real-world time-series.
 
 1. The main underlying assumption is that time-series are well approximated by model (1.0), which is of course questionable in many cases. 
 
-2. Suppose one has data on $N$ time-series and seeks to find the cointegration relations among groups of dimension $K$. The total number of relevant combinations is $\frac{N!}{K!(N-K)!}$ which for fixed $K$ scales as $\sim N^K/K!$. For large $N$, this search can become computationally prohibitive.
+2. Suppose one has data on $N$ time-series and seeks to find the cointegration relations among groups of dimension $K$. The total number of relevant combinations is $\frac{N!}{K!(N-K)!}$ which for fixed $K$ scales as $\sim N^K$. For large $N$, this search can become computationally prohibitive.
 
 3. Since future information is not available, one has access only to historical values. It is on these datasets that $\beta$ is computed. In actual trading a portfolio $\beta'y_t$ is constructed when a position is opened, and $\beta$ held fixed until the position is closed. However, there is no guarantee that $\beta$ will stay approximately the same within this trading time window. In fact, it often varies continuously over time rather than remaining constant.
 
