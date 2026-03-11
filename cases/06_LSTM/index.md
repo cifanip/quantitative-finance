@@ -16,3 +16,11 @@ $$
 $$
 
 An example of the solution $x(t)$ over time is shown in Figure 1. Parameters have been chosen such that the system becomes chaotic. 
+
+<p align="center">
+  <img src="figures/xt_series.png" width="60%">
+</p>
+
+<p align="center"><b>Figure 1:</b> Evolution of $x(t)$ over time.</p>
+
+
