@@ -5,7 +5,7 @@ layout: default
 
 # Pairs Trading
 
-Pairs trading aims to construct a stationary process by a linear combination of signals that contain drift. If this procedure is successful, one obtains a statistical arbitrage opportunity. By initiating a long position at a price well below the mean of the process, by the stationarity of the process, one generates a positive return when closing the position at around the mean. The opposite opportunity presents itslef for short selling.
+Pairs trading aims to construct a stationary process by a linear combination of signals that contain drift. If this procedure is successful, one obtains a statistical arbitrage opportunity. By initiating a long position at a price well below the mean of the process, by the stationarity of the process, one generates a positive return when closing the position at around the mean. The opposite opportunity presents itself for short selling.
 
 The theory presented in these notes is based on the textbook [^1]. They are intended as a condensed summary of the material regarding cointegration.
 
@@ -130,7 +130,7 @@ A number of issues arise in real-world time-series.
 
 2. Suppose one has data on $N$ time-series and seeks to find the cointegration relations among groups of dimension $K$. The total number of relevant combinations is $\frac{N!}{K!(N-K)!}$ which for fixed $K$ scales as $\sim N^K$. For large $N$, this search can become computationally prohibitive.
 
-3. Since future information is not available, one has access only to historical values. It is on these datasets that $\beta$ is computed. In actual trading a portfolio $\beta'y_t$ is constructed when a position is opened, and clearly the weghts in $\beta$ cannot be changed until the position is closed. However, there is no guarantee that $\beta$ will stay approximately the same within this trading time window. In fact, it often varies continuously over time rather than remaining constant.
+3. Since future information is not available, one has access only to historical values. It is on these datasets that $\beta$ is computed. In actual trading a portfolio $\beta'y_t$ is constructed when a position is opened, and clearly the weights in $\beta$ cannot be changed until the position is closed. However, there is no guarantee that $\beta$ will stay approximately the same within this trading time window. In fact, it often varies continuously over time rather than remaining constant.
 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
