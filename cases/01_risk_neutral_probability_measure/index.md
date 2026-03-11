@@ -21,7 +21,7 @@ $$
 \mathbb{E}[M(t)\mid \mathcal{F}_s] = M(s), \qquad 0 \le s \le t, \qquad (1.0)
 $$
 
-for all $t \ge 0$. From this defintion is clear that the process $M(t)$, conditioned on all the past informations up to time $s$, will on average neither rise nor fall at future time $t$. As it will be clear in the next sections, condition (1.0) is tightly linked to arbitrage-free markets.
+for all $t \ge 0$. From this defintion is clear that the process $M$ at a future time $t$, conditioned on all the past informations up to time $s$, will on average equal $M(s)$. As it will be clear in the next sections, condition (1.0) is tightly linked to arbitrage-free markets.
 
 ### Novikov's condition
 Let $\\{ \theta(t) \\}\_{t \ge 0} \in \mathcal{C}^0[\mathcal{F}(t)]$ satisfy
