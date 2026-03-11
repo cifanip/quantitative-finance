@@ -220,7 +220,7 @@ Detecing such structures is the essence of persistent homology computations. Fur
 
 ## 2. Computations
 
-As a benchmark for financial applications, we contrast the persistence diagram of the Lorenz–96 system, representing nonlinear structured dynamics, with that of an Ornstein–Uhlenbeck process, a standard model for mean-reverting asset prices, which provides a natural baseline.
+As an illustration of the machinery of persistent homology, we compute the persistent diagram of the Lorenz–96 system. The latter is a chaotic system with an underlying attractor. Topological features of attractors are detected by persistent homology. As a baseline, the persistent diagrams of an Ornstein–Uhlenbeck process are also presented, which are known to have no topological structure. 
 
 The L96 systems is defined as follows. For $i=1,...,N$:
 
