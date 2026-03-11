@@ -245,5 +245,11 @@ to obtain a point-cloud in $\mathbb{R}^m$. This approach is formally motivated b
 
 Once the point cloud is created, one has to generate a filtration and compute the persistent Betti numbers. To accomplish this task we adopt the open-source GUDHI library [^2]. Figure 6 presents the persistent diagram of the embedding (2.1).
 
+<p align="center">
+  <img src="figures/ph_L96.png" width="60%">
+</p>
+
+<p align="center"><b>Figure 6:</b> Persistent diagram of the L96 embedding (2,1).</p>
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
 [^2]: The GUDHI Project (2023). *GUDHI User and Reference Manual*. Available at: https://gudhi.inria.fr/
