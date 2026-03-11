@@ -252,7 +252,7 @@ Once the point cloud is created, one has to generate a filtration and compute th
 
 <p align="center"><b>Figure 6:</b> Persistent diagram of the L96 embedding. These results have been produced by using the library GUDHI [^-2].</p>
 
-The red points (dimension 0) represent connected components that rapidly merge, indicating that the point cloud forms a single cluster. The blue points (dimension 1) correspond to holes in the data. In the persisten diagram of the L96 system, several elements in $H_1$ exhibit moderate persistence and lie noticeably far from the diagonal. These features reflect recurrent geometric structures of the underlying attractor. In contrst, the Ornstein–Uhlenbeck process produces mostly short-lived $H_1$ features clustered near the diagonal. A single point appears at a scale close to the correlation time $\tau=1$, reflecting the finite temporal correlation of the process. 
+The connected components (elements of $H_0$) are mostly born at the beginning of the filtration. They merge rather quickly and at the final scale only a single connected cluster remains. One dimensional holes (elements of $H_1$) are more informative for this system. Several elements show significant persistece (blue points far from the diagonal). These features are a signature of the geometrci structure of the underlying attractor. 
 
 While persistence diagrams provide a qualitative representation of topological features, they are not directly suited for standard statistical analysis. To address this, several vectorization methods have been proposed, such as **persistence landscapes**. These allow to bridge the gap between abstract topological summaries and the standard tools of statistics and machine learning.
 
