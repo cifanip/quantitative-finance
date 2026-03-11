@@ -250,11 +250,13 @@ Once the point cloud is created, one has to generate a filtration and compute th
   <img src="figures/ph_OU.png" width="45%">
 </p>
 
-<p align="center"><b>Figure 6:</b> Persistent diagram of the L96 embedding (left panel) and of the OU embedding (right panel).</p>
+<p align="center"><b>Figure 6:</b> Persistent diagram of the L96 embedding (left panel) and of the OU embedding (right panel). These results have been produced by using the library GUDHI [^-2].</p>
 
-The red points (dimension 0) represent connected components that rapidly merge, indicating that the point cloud forms a single cluster. The blue points (dimension 1) correspond to holes in the data. A few elements in $H_1$ xhibit moderate persistence and lie noticeably far from the diagonal. These features reflect recurrent geometric structures of the underlying attractor. 
+The red points (dimension 0) represent connected components that rapidly merge, indicating that the point cloud forms a single cluster. The blue points (dimension 1) correspond to holes in the data. In the persisten diagram of the L96 system, several elements in $H_1$ exhibit moderate persistence and lie noticeably far from the diagonal. These features reflect recurrent geometric structures of the underlying attractor. In contrst, the Ornstein–Uhlenbeck process produces mostly short-lived $H_1$ features clustered near the diagonal. A single point appears at a scale close to the correlation time $\tau=1$, reflecting the finite temporal correlation of the process. 
 
+While persistence diagrams provide a qualitative representation of topological features, they are not directly suited for standard statistical analysis. To address this, several vectorization methods have been proposed, such as **persistence landscapes**. These allow to bridge the gap between abstract topological summaries and the standard tools of statistics and machine learning.
 
+Although the examples considered here are synthetic, they serve to illustrate the methodology and its interpretation. The same framework can be applied to financial data, where persistent homology provides a tool for exploring the underlying geometric structure of market dynamics.
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
 [^2]: The GUDHI Project (2023). *GUDHI User and Reference Manual*. Available at: https://gudhi.inria.fr/
