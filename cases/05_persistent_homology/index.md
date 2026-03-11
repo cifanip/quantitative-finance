@@ -54,7 +54,7 @@ The subset $V$ is called convex if for each $x,y \in V$ the line segment between
 Let $k,d \in \mathbb{N}$ with $k \leq d$. A geoemtric $k$-simplex $\sigma \subset \mathbb{R}^d$ is the convex hull of $k+1$ affinely independent points $\\{ v_0, ..., v_k \\}$. That is
 
 $$
-\sigma = Conv \ \\{ v_0, ..., v_k \\}. \qquad (1.0)
+\sigma = Conv \ \lbrace v_0, ..., v_k \rbrace. \qquad (1.0)
 $$
 
 **Definition 4 (Simplicial complex)**
