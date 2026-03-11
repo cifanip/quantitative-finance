@@ -227,17 +227,18 @@ $$
 \frac{dx_i}{dt} = (x_{i+1}-x_{i-2})x_{i-1}-x_i+F,
 $$
 
-where $x_{-1}=x_{N-1}$, $x_0=x_N$, $x_{N+1}=x_1$ and $N \ge 4$. Here we set $N=5$ and $F=16$, which causes chaotic behavior.  
-
-Figure 5 shows the phase-space representation of $x(t)$ projected onto the first three principal components.
+where $x_{-1}=x_{N-1}$, $x_0=x_N$, $x_{N+1}=x_1$ and $N \ge 4$. Here we set $N=5$ and $F=16$, which causes chaotic behavior. Figure 5 shows the phase-space representation of $x(t)$ projected onto the first three principal components.
 
 <p align="center">
   <img src="figures/phase_L96.png" width="60%">
 </p>
 
-<p align="center"><b>Figure 4:</b> $x(t)$ for the L96 system projected onto the first three principal components.</p>
+<p align="center"><b>Figure 5:</b> $x(t)$ for the L96 system projected onto the first three principal components.</p>
 
-The process $r_t$ can be interpreted as one component of the market, for example the return of a stock index. We suppose that $r_t$ is the only observable market variable, while the market itself is governed by a higher-dimensional system. This situation is common in finance and many other scientific fields. To recover aspects of the underlying dynamics, one constructs sliding-window embeddings
+
+
+The process $r_t$ can be interpreted as one component of the market, for example the return of a stock index. 
+We suppose that $r_t$ is the only observable market variable, while the market itself is governed by a higher-dimensional system. This situation is common in finance and many other scientific fields. To recover aspects of the underlying dynamics, one constructs sliding-window embeddings
 
 $$
 Y_t = \\{ r_t, r_{t+1},...,r_{t+m+1}, \\}
