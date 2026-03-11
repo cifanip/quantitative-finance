@@ -251,5 +251,9 @@ Once the point cloud is created, one has to generate a filtration and compute th
 
 <p align="center"><b>Figure 6:</b> Persistent diagram of the L96 embedding (2,1).</p>
 
+The red points (dimension 0) represent connected components that rapidly merge, indicating that the point cloud forms a single cluster. The blue points (dimension 1) correspond to holes in the data. A few elements in $H_1$ xhibit moderate persistence and lie noticeably far from the diagonal. These features reflect recurrent geometric structures of the underlying attractor. 
+
+
+
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
 [^2]: The GUDHI Project (2023). *GUDHI User and Reference Manual*. Available at: https://gudhi.inria.fr/
