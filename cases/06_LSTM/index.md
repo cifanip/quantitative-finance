@@ -50,12 +50,12 @@ The accuracy of the LSTM predictions is satisfactory. Fine tuning of the network
 A perhaps more complleing case for finance applications is a probabilistic forecast. For example consider the scenario where past market indicator observations are recorded and the aim is to predict whether the next observation will be positive. The network learns the conditional probability distribution
 
 $$
-p_\theta(y_{t+1} > 0 | y_t,...,y_{t-m+1}),
+p_\theta(y_{t+1} > 0 | y_t,...,y_{t-m+1}).
 $$
 
-by minimizing the log-likelihood of the Bernoulli distribution
+By defining a binary variable $z$ that takes value $1$ in the event $y_{t+1} > 0$ and $0$ otherwise, the loss function is the log-likelihood of the Bernoulli distribution
 
 $$
-\mathcal{L}_\theta = - y \text{ln}p_\theta
+\mathcal{L}_\theta = - y \text{ln}p_\theta-(1-y)\text{ln}(1-p_\theta). 
 $$
 
