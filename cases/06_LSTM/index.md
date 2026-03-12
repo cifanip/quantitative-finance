@@ -56,6 +56,6 @@ $$
 By defining a binary variable $z$ that takes value $1$ in the event $y_{t+1} > 0$ and $0$ otherwise, the loss function is the log-likelihood of the Bernoulli distribution
 
 $$
-\mathcal{L}_\theta = - y \text{ln}p_\theta-(1-y)\text{ln}(1-p_\theta). 
+\mathcal{L}_\theta = - z \text{ln}p_\theta-(1-z)\text{ln}(1-p_\theta). 
 $$
 
