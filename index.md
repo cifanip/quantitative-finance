@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Quant Research Portfolio
+# Research Topics
 
 ## Case Studies
 - [Risk Neutral Probability Measure](/quantitative-finance/cases/01_risk_neutral_probability_measure/)
@@ -11,3 +11,8 @@ title: Home
 - [Pairs Trading](/quantitative-finance/cases/03_pairs_trading/)
 - [Hidden Markov Models](/quantitative-finance/cases/04_hidden_markov_models/)
 - [Persistent Homolgy](/quantitative-finance/cases/05_persistent_homology/)
+- [LSTM](/quantitative-finance/cases/06_LSTM/)
+
+# Algorithms
+
+## Case Studies
