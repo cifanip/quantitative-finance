@@ -47,7 +47,7 @@ The neural network has been trained on a dataset consisting of approximately $40
   <img src="figures/xt_forecast.png" width="60%">
 </p>
 
-<p align="center"><b>Figure 1:</b> Forecasting (red circles) of $x(t)$ (solid black line). These results generated using PyTorch [^1]. </p>
+<p align="center"><b>Figure 1:</b> Forecasting (red circles) of $x(t)$ (solid black line). These results were generated using PyTorch [^1]. </p>
 
 The accuracy of the LSTM predictions is satisfactory. Fine tuning of the network hyperparameters may improve the forecasting even further, but the point here is rather to show that this network architecture does a good job at learning non-linear dependence in past observations. 
 
