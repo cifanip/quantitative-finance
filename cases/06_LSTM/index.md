@@ -5,7 +5,11 @@ layout: default
 
 # LSTM forecasting
 
-In this page we illustrate the capabilities of a LSTM neural network in terms of forecasting. Here we assume that the reader is already familiar with theory behind LSTM networks and with neural networks in general. The notation and the problem definition are briefly introduced. Let the sequence $\mathbf{X}\_T=\\{ x_1,x_2,...,x_T \\}$ denote a multivariate time-series sampled at discrete points $x_i \in \mathbb{R}^n$. Let $\mathbf{X}\_B \subset \mathbf{X}\_T$ denote a batch of $b$ samples $\\{ x\_{t-b+1},...,x_t \\}$. We consider the problem of forecasting $x_{t+1}$ given $\mathbf{X}\_B$. In particular, the loss function with respect to a bastch of data is defined by
+In this page we illustrate the capabilities of a LSTM neural network in terms of forecasting. Here we assume that the reader is already familiar with theory behind LSTM networks and with neural networks in general. 
+
+The open-source library PyTorch [^1] has been used to generate part of the presented results.
+
+The notation and the problem definition are briefly introduced. Let the sequence $\mathbf{X}\_T=\\{ x_1,x_2,...,x_T \\}$ denote a multivariate time-series sampled at discrete points $x_i \in \mathbb{R}^n$. Let $\mathbf{X}\_B \subset \mathbf{X}\_T$ denote a batch of $b$ samples $\\{ x\_{t-b+1},...,x_t \\}$. We consider the problem of forecasting $x_{t+1}$ given $\mathbf{X}\_B$. In particular, the loss function with respect to a bastch of data is defined by
 
 $$
 \mathcal{L}_B(\theta) = \lVert x_{t+1} - h_\theta(\mathbf{X}\_B) \rVert_2,
@@ -43,7 +47,7 @@ The neural network has been trained on a dataset consisting of approximately $40
   <img src="figures/xt_forecast.png" width="60%">
 </p>
 
-<p align="center"><b>Figure 1:</b> Forecasting (red circles) of $x(t)$ (solid black line).</p>
+<p align="center"><b>Figure 1:</b> Forecasting (red circles) of $x(t)$ (solid black line). These results generated using PyTorch [^1]. </p>
 
 The accuracy of the LSTM predictions is satisfactory. Fine tuning of the network hyperparamters may improve the forecasting even further, but the poit here is rather to show that this network architecture does a good job at learnong non-linear dependence in past observations. 
 
@@ -63,6 +67,5 @@ where $z$ is a binary variable that takes value $1$ in the event $y_{t+1} > 0$ a
 
 The success of a forecast is often determined by the quality of intput data, rather than by the particular detials of the network architecture. Preprocessing is, in fact, a crucial step and raw squential data is seldom used. Methods to prepare input data are numerous and among these are filtering, convolutional neural networks, autoencoders and many others. Perhaps an interesting approach is persistent homology (see dedicated section here: [notes on persistent homology](https://github.com/cifanip/quantitative-finance/tree/main/cases/05_persistent_homology/)), where key topological structures are extracted from data. 
 
-
-
+[^1]: Paszke, A. et al. (2019). *PyTorch: An Imperative Style, High-Performance Deep Learning Library*. NeurIPS 2019. Repository: PyTorch. https://github.com/pytorch/pytorch
 
