@@ -12,5 +12,3 @@ title: Home
 - [Hidden Markov Models](/quantitative-finance/cases/04_hidden_markov_models/)
 - [Persistent Homolgy](/quantitative-finance/cases/05_persistent_homology/)
 - [LSTM](/quantitative-finance/cases/06_LSTM/)
-
-## Algorithms
