@@ -44,3 +44,5 @@ The neural network has been trained on a dataset consisting of approximately $40
 </p>
 
 <p align="center"><b>Figure 1:</b> Forecasting (red circles) of $x(t)$ (solid black line).</p>
+
+
