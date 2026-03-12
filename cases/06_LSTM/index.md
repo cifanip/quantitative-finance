@@ -46,3 +46,11 @@ The neural network has been trained on a dataset consisting of approximately $40
 <p align="center"><b>Figure 1:</b> Forecasting (red circles) of $x(t)$ (solid black line).</p>
 
 The accuracy of the LSTM predictions is satisfactory. Fine tuning of the network hyperparamters may improve the forecasting even further, but the poit here is rather to show that this network architecture does a good job at learnong non-linear dependence in past observations. 
+
+A perhaps more complleing case for finance applications is a probabilistic forecast. For example consider the scenario where past price observations are recorded and the aim is to predict whether the next price movement will be positive. That is, the network learns the conditional probability distribution
+
+$$
+p(y_{t+1} | y_t,...,y_{t-m+1}),
+$$
+
+
