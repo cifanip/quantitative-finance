@@ -8,7 +8,7 @@ layout: default
 In this page we illustrate the capabilities of a LSTM neural network in terms of forecasting. Here we assume that the reader is already familiar with theory behind LSTM networks and with neural networks in general. The notation and the problem definition are briefly introduced. Let the sequence $\mathbf{X}\_T=\\{ x_1,x_2,...,x_T \\}$ denote a multivariate time-series sampled at discrete points $x_i \in \mathbb{R}^n$. Let $\mathbf{X}\_B \subset \mathbf{X}\_T$ denote a batch of $b$ samples $\\{ x\_{t-b+1},...,x_t \\}$. We consider the problem of forecasting $x_{t+1}$ given $\mathbf{X}\_B$. In particular, the loss function with respect to a bastch of data is defined by
 
 $$
-\mathcal{L}_B(\theta) = \| x_{t+1} - h_\theta(\mathbf{X}\_B) \|_2,
+\mathcal{L}_B(\theta) = \lVert x_{t+1} - h_\theta(\mathbf{X}\_B) \rVert_2,
 $$
 
 with $h_\theta$ being the LSTM network. The overall loss is thus
