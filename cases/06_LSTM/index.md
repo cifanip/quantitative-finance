@@ -26,10 +26,10 @@ The prototype model employed are the Mackey–Glass equations. They refer to a f
 The equations are the following:
 
 $$
-\frac{dx(t)}{dt} = \frac{\beta x(t-\tau)}{1+x(t-\tau)^n} - \gamma x(t). \qquad (1)
+\frac{dx(t)}{dt} = \frac{\beta x(t-\tau)}{1+x(t-\tau)^n} - \gamma x(t), \qquad (1)
 $$
 
-An example of the solution $x(t)$ over time is shown in Figure 1. Parameters have been chosen such that the system becomes chaotic. 
+where $x \in \mathbb{R}$. An example of the solution $x(t)$ over time is shown in Figure 1. Parameters have been chosen such that the system becomes chaotic. 
 
 <p align="center">
   <img src="figures/xt_series.png" width="60%">
