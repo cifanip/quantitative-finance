@@ -56,6 +56,6 @@ $$
 by minimizing the log-likelihood of the Bernoulli distribution
 
 $$
-]mathcal{L}_\theta = - y \text{ln}p_\theta
+\mathcal{L}_\theta = - y \text{ln}p_\theta
 $$
 
