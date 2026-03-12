@@ -61,7 +61,8 @@ $$
 
 where $z$ is a binary variable that takes value $1$ in the event $y_{t+1} > 0$ and $0$ otherwise. A learned distribution brings more value to the forecast. One not only predicts a future movement, but also the spread in the prediction. 
 
-The success of a forecast is often determined by the quality of intput data, rather than by the particular detials of the network architecture. Preprocessing is, in fact, a crucial step and raw squential data is seldom used. Methods to prepare input data are numerous and among these are filtering, convolutional neural networks, autoencoders and many others. Perhaps an interesting approach is persistent homology (see dedicated section here), where key topological structures are extracted from data. 
+The success of a forecast is often determined by the quality of intput data, rather than by the particular detials of the network architecture. Preprocessing is, in fact, a crucial step and raw squential data is seldom used. Methods to prepare input data are numerous and among these are filtering, convolutional neural networks, autoencoders and many others. Perhaps an interesting approach is persistent homology (see dedicated section here: [notes on persistent homology](https://github.com/cifanip/quantitative-finance/tree/main/cases/05_persistent_homology/)), where key topological structures are extracted from data. 
+
 
 
 
