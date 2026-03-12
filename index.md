@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Research Topics
+# Quant Research Portfolio
 
 ## Case Studies
 - [Risk Neutral Probability Measure](/quantitative-finance/cases/01_risk_neutral_probability_measure/)
@@ -13,6 +13,4 @@ title: Home
 - [Persistent Homolgy](/quantitative-finance/cases/05_persistent_homology/)
 - [LSTM](/quantitative-finance/cases/06_LSTM/)
 
-# Algorithms
-
-## Case Studies
+## Algorithms
