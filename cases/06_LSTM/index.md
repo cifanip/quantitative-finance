@@ -47,15 +47,19 @@ The neural network has been trained on a dataset consisting of approximately $40
 
 The accuracy of the LSTM predictions is satisfactory. Fine tuning of the network hyperparamters may improve the forecasting even further, but the poit here is rather to show that this network architecture does a good job at learnong non-linear dependence in past observations. 
 
-A perhaps more complleing case for finance applications is a probabilistic forecast. For example consider the scenario where past market indicator observations are recorded and the aim is to predict whether the next observation will be positive. The network learns the conditional probability distribution
+A perhaps more complleing case for finance applications is a probabilistic forecast. For example consider the scenario where past market observations are recorded and the aim is to predict whether the next observation will be positive. The network learns the conditional probability distribution
 
 $$
-p_\theta(y_{t+1} > 0 | y_t,...,y_{t-m+1}).
+p_\theta(y_{t+1} > 0 | y_t,...,y_{t-m+1})
 $$
 
-By defining a binary variable $z$ that takes value $1$ in the event $y_{t+1} > 0$ and $0$ otherwise, the loss function is the log-likelihood of the Bernoulli distribution
+by minimising log-likelihood of the Bernoulli distribution
 
 $$
-\mathcal{L}(theta) = - z \text{ln}p_\theta-(1-z)\text{ln}(1-p_\theta). 
+\mathcal{L}(\theta) = - z \text{ln}p_\theta-(1-z)\text{ln}(1-p_\theta),
 $$
+
+where $z$ is a binary variable that takes value $1$ in the event $y_{t+1} > 0$ and $0$ otherwise. 
+
+
 
