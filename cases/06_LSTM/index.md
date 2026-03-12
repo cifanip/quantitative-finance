@@ -37,4 +37,10 @@ where $x \in \mathbb{R}$. An example of the solution $x(t)$ over time is shown i
 
 <p align="center"><b>Figure 1:</b> Evolution of $x(t)$ over time.</p>
 
+The neural network has been trained on a dataset consisting of approximately $4000$ batches with a traning-to-test split ratio of $0.7$. Figure 2 shows the forecasting of a sequence of $x(t)$ in the test set. 
 
+<p align="center">
+  <img src="figures/xt_forecast.png" width="60%">
+</p>
+
+<p align="center"><b>Figure 1:</b> Forecasting (red circles) of $x(t)$ (solid black line).</p>
