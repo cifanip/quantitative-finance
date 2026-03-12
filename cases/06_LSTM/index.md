@@ -14,7 +14,7 @@ $$
 with $h_\theta$ being the LSTM network. The overall loss is thus
 
 $$
-\mathcal{L}_(\theta) = \frac{1}{|\mathcal{B}|} \sum_{B \in |\mathcal{B}|} \mathcal{L}_B(\theta). 
+\mathcal{L}(\theta) = \frac{1}{|\mathcal{B}|} \sum_{B \in |\mathcal{B}|} \mathcal{L}_B(\theta). 
 $$
 
 
