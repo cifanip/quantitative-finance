@@ -37,7 +37,7 @@ where $x \in \mathbb{R}$. An example of the solution $x(t)$ over time is shown i
 
 <p align="center"><b>Figure 1:</b> Evolution of $x(t)$ over time.</p>
 
-The neural network has been trained on a dataset consisting of approximately $4000$ batches with a traning-to-test split ratio of $0.7$. Figure 2 shows the forecasting of a sequence of $x(t)$ in the test set. 
+The neural network has been trained on a dataset consisting of approximately $4000$ batches with a traning-to-test split ratio of $0.7$. The batch length $b$ has been set to a value close to the lag $\tau$. Figure 2 shows the forecasting of a sequence of $x(t)$ in the test set. 
 
 <p align="center">
   <img src="figures/xt_forecast.png" width="60%">
@@ -45,4 +45,4 @@ The neural network has been trained on a dataset consisting of approximately $40
 
 <p align="center"><b>Figure 1:</b> Forecasting (red circles) of $x(t)$ (solid black line).</p>
 
-
+The accuracy of the LSTM predictions is satisfactory. Fine tuning of the network hyperparamters may improve the forecasting even further, but the poit here is rather to show that this network architecture does a good job at learnong non-linear dependence in past observations. 
