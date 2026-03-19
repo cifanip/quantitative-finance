@@ -5,9 +5,9 @@ layout: default
 
 # Sliding Window Maximum
 
-Original problem: [https://leetcode.com/problems/sliding-window-maximum/](https://leetcode.com/problems/sliding-window-maximum/)
-
 *This page contains my own explanation and implementation. The original problem is available on LeetCode.*
+
+Original problem: [https://leetcode.com/problems/sliding-window-maximum/](https://leetcode.com/problems/sliding-window-maximum/)
 
 ---
 
