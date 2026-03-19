@@ -7,9 +7,11 @@ layout: default
 
 Original problem: [https://leetcode.com/problems/sliding-window-maximum/](https://leetcode.com/problems/sliding-window-maximum/)
 
+*This page contains my own explanation and implementation. The original problem is available on LeetCode.*
+
 ---
 
-## My summary
+## Problem Overview
 
 Given an array of integers, return indices of two numbers such that they add up to a target.
 
