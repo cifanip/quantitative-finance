@@ -5,7 +5,7 @@ layout: default
 
 # Sliding Window Maximum
 
-Original problem: [https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/sliding-window-maximum/)
+Original problem: [https://leetcode.com/problems/sliding-window-maximum/](https://leetcode.com/problems/sliding-window-maximum/)
 
 ---
 
