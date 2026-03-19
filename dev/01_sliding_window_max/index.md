@@ -15,7 +15,6 @@ Original problem: [https://leetcode.com/problems/sliding-window-maximum/](https:
 
 Given an array of integers, return indices of two numbers such that they add up to a target.
 
----
 
 ## Approach
 
