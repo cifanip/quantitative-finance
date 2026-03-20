@@ -11,3 +11,9 @@ The theory presented in these notes is based on the lecture notes Stochastic Cal
 
 ## 1. Theory
 
+
+
+
+
+
+[^1]: Calogero, S., 2019. Stochastic Calculus Financial Derivatives and PDE’s. Lecture notes for the course MMA711 at Chalmers University of Technology.
