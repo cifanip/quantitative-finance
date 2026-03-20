@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Quant Theory and Alorithms
+# Quant Theory and Algorithms
 
 ## Options pricing
 
