@@ -5,11 +5,12 @@ layout: default
 
 # American Options
 
-This section summarizes results from the theory of American derivatives pricing. Background material can be found here: [notes on risk-netrual probability measure](https://github.com/cifanip/quantitative-finance/tree/main/cases/05_persistent_homology/))
+This section summarizes results from the theory of American derivatives pricing. Background material can be found here: [notes on risk-netrual probability measure](https://github.com/cifanip/quantitative-finance/tree/main/cases/01_risk_netrual_probability_measure/)).
 
 The theory presented in these notes is based on the lecture notes Stochastic Calculus, Financial Derivatives and PDE's [^1], by prof. S. Calogero. They are intended as a condensed summary of the material, and any mistakes are my own. I am grateful to the author for making this material publicly available.
 
 ## 1. Theory
+
 
 
 
