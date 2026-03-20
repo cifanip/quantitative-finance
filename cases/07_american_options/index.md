@@ -51,6 +51,8 @@ $$
 
 Here we used: $D(t)$ is $\mathcal{F}_W(t)$ measurable; $D(T)/D(t)$ is positive ($R(t)>0$); the discounted price $\\{ S(t)D(t) \\}$ is a $\widetilde{\mathbb{P}}$-martingale. 
 
-If it is then never optimal to excercise the American option, then its value must be equal to that of a Europen option (see again point 1.). 
+If it is then never optimal to excercise the American option, then its value must be equal to that of a Europen option (see again point 1.). An remark is in order: here we are not considering dividends. If we allow them, then excercise early might be convenient since by holding the actual stock just purchsed we receive dividends, while we obsiously do not receive dividends if we hold the option. 
+
+
 
 [^1]: Calogero, S., 2019. Stochastic Calculus Financial Derivatives and PDE’s. Lecture notes for the course MMA711 at Chalmers University of Technology. 
