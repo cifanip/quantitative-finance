@@ -25,7 +25,7 @@ Nest, we define $\widehat{\Pi}_Y(t)$ and $\Pi_Y(t)$ the price of the American an
 1. $\widehat{\Pi}_Y(t) \geq \Pi_Y(t)$ for all $t \in (0,T]$. This is reasonable since American options give its owner the additional possibility of early excercise compared to European options, to which it should correspond a higher premium.
 2. $\widehat{\Pi}_Y(t) \geq Y(t)$ otherwise an arbitrage would exist simply by purchsing the option at $\widehat{\Pi}_Y(t)$ and excerising immedediately to gain $Y(t)-\widehat{\Pi}_Y(t)$.
 
-
+For an American option we thus have always two choises: excercise and obtain the payoff $Y(t)$ or wait and keep the option with value $\widehat{\Pi}_Y(t)$. 
 
 
 
