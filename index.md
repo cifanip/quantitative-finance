@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# Quant Theory and Algorithms
+# Theory and Algorithms
 
-## Options pricing
+## Option pricing
 
 ### Theory
 - [Risk Neutral Probability Measure](/quantitative-finance/cases/01_risk_neutral_probability_measure/)
