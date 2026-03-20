@@ -11,7 +11,7 @@ The theory presented in these notes is based on the lecture notes Stochastic Cal
 
 ## 1. Theory
 
-In contrast to European options, American options can be excercised at any time $t \in (0,T]$, where $T$ is the maturity time. 
+In contrast to European options, American options can be excercised at any time $t \in (0,T]$, where $T$ is the maturity time. We assume the pay-off $Y(t)=g(S(t))$ for some measurable function $g$ of the stock price $S(t)$. 
 
 
 
