@@ -55,7 +55,7 @@ If it is then never optimal to excercise the American call option, then its valu
 
 A couple of remarks are in order. Since interest rate is (assumed to be) positive, the amount to buy shares at $K$ one needs to excercise can be invested to earn interests. This favors waiting and dominates excercising early. However, here we are not considering dividends. If we allow them, then excercising early might be convenient since by holding the actual stock just purchsed we receive dividends, while we obsiously do not receive dividends if we hold the option. 
 
-For put American options the picture is different. 
+For put American options the picture is different. A formal definition of **stopping time** is needed. 
 
 
 
