@@ -51,4 +51,6 @@ $$
 
 Here we used: $D(t)$ is $\mathcal{F}_W(t)$ measurable; $D(T)/D(t)$ is positive ($R(t)>0$); the discounted price $\\{ S(t)D(t) \\}$ is a $\widetilde{\mathbb{P}}$-martingale. 
 
+If it is then never optimal to excercise the American option, then its value must be equal to that of a Europen option (see again point 1.). 
+
 [^1]: Calogero, S., 2019. Stochastic Calculus Financial Derivatives and PDE’s. Lecture notes for the course MMA711 at Chalmers University of Technology. 
