@@ -11,7 +11,14 @@ The theory presented in these notes is based on the lecture notes Stochastic Cal
 
 ## 1. Theory
 
-In contrast to European options, American options can be excercised at any time $t \in (0,T]$, where $T$ is the maturity time. We assume the pay-off $Y(t)=g(S(t))$ for some measurable function $g$ of the stock price $S(t)$. 
+In contrast to European options, American options can be excercised at any time $t \in (0,T]$, where $T$ is the maturity time. We assume the pay-off $Y(t)=g(S(t))$ for some measurable function $g$ of the stock price $S(t)$. Similarly to what we have seen for European options we have
+
+$$
+\begin{aligned}
+g(x) &= (x-K)_+ \qquad \text{for call options,} \\
+g(x) &= (K-x)_+ \qquad \text{for put options.}
+\end{aligned}
+$$
 
 
 
