@@ -20,7 +20,7 @@ g(x) &= (K-x)_+ \qquad \text{for put options.}
 \end{aligned}
 $$
 
-Nest, we define $\widehat{Pi}_Y(t)$
+Nest, we define $\widehat{\Pi}_Y(t)$ and $\Pi_Y(t)$ the price of the American and Euoropean option, respectively. 
 
 
 
