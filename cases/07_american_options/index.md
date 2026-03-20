@@ -49,6 +49,6 @@ $$
 \end{aligned}
 $$
 
-Here we used: $D(t)$ is $\mathcal{F}_W(t)$ measurable; $D(T)/D(t)$ is positive, that is $R(t)>0$; the discounted price $\\{ S(t)D(t) \\}$ is a martingale under the probability measure. 
+Here we used: $D(t)$ is $\mathcal{F}_W(t)$ measurable; $D(T)/D(t)$ is positive, that is $R(t)>0$; the discounted price $\\{ S(t)D(t) \\}$ is a $\widetilde{\mathbb{P}}$-martingale. 
 
 [^1]: Calogero, S., 2019. Stochastic Calculus Financial Derivatives and PDE’s. Lecture notes for the course MMA711 at Chalmers University of Technology. 
