@@ -51,7 +51,7 @@ $$
 
 Here we used: $D(t)$ is $\mathcal{F}_W(t)$ measurable; $D(T)/D(t)$ is positive ($R(t)>0$); the discounted price $\\{ S(t)D(t) \\}$ is a $\widetilde{\mathbb{P}}$-martingale. 
 
-If it is then never optimal to excercise the American option, then its value must be equal to that of a Europen option (see again point 1.). An remark is in order: here we are not considering dividends. If we allow them, then excercise early might be convenient since by holding the actual stock just purchsed we receive dividends, while we obsiously do not receive dividends if we hold the option. 
+If it is then never optimal to excercise the American option, then its value must be equal to that of a Europen option (see again point 1.). A couple of remarks are in order. Since interest rate is different from zero, the amount to buy shares at $K$ one needs to excercise can safely stay in the bank earning interests. This favors waiting and dominates excercising early. However, here we are not considering dividends. If we allow them, then excercising early might be convenient since by holding the actual stock just purchsed we receive dividends, while we obsiously do not receive dividends if we hold the option. 
 
 
 
