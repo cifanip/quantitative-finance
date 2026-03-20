@@ -23,7 +23,7 @@ $$
 Nest, we define $\widehat{\Pi}_Y(t)$ and $\Pi_Y(t)$ the price of the American and Euoropean option, respectively. Two basic principles should apply to determine $\widehat{\Pi}_Y(t)$:
 
 1. $\widehat{\Pi}_Y(t) \geq \Pi_Y(t)$ for all $t \in (0,T]$. This is reasonable since American options give its owner the additional possibility of early excercise compared to European options, to which it should correspond a higher premium.
-2. $\widehat{\Pi}_Y(t) > Y(t)$ otherwise an arbitrage would exist simply by purchsing the option at $\widehat{\Pi}_Y(t)$ and excerising immedediately to gain $Y(t)-\widehat{\Pi}_Y(t)$.
+2. $\widehat{\Pi}_Y(t) \geq Y(t)$ otherwise an arbitrage would exist simply by purchsing the option at $\widehat{\Pi}_Y(t)$ and excerising immedediately to gain $Y(t)-\widehat{\Pi}_Y(t)$.
 
 
 
