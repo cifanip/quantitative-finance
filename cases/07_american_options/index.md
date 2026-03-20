@@ -20,7 +20,7 @@ g(x) &= (K-x)_+ \qquad \text{for put options.}
 \end{aligned}
 $$
 
-
+Nest, we define $\widehat{Pi}_Y(t)$
 
 
 
