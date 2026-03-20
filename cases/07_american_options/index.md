@@ -20,7 +20,9 @@ g(x) &= (K-x)_+ \qquad \text{for put options.}
 \end{aligned}
 $$
 
-Nest, we define $\widehat{\Pi}_Y(t)$ and $\Pi_Y(t)$ the price of the American and Euoropean option, respectively. 
+Nest, we define $\widehat{\Pi}_Y(t)$ and $\Pi_Y(t)$ the price of the American and Euoropean option, respectively. Two basic principles should apply to determine $\widehat{\Pi}_Y(t)$:
+
+1. $\widehat{\Pi}_Y(t) \geq $\Pi_Y(t)$ for all $t \in (0,T]$. This is reasonable since American options give its owner the additional possibility of early excercise compared to Emerican options, to which it should correspond a higher premium. 
 
 
 
