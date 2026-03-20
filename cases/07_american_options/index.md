@@ -57,6 +57,10 @@ A couple of remarks are in order. Since interest rate is (assumed to be) positiv
 
 For put American options the picture is different. A formal definition of **stopping time** is needed [^1]. A random variable $\tau \ : \ \Omega \to [0,T]$ is called a stopping time for the filtration $\\{ \mathcal{F}(t)_W \\}\_{t \geq 0}$ if $\\{ \tau \geq t \\} \in \mathcal{F}_W(t)$, for all $t \in [0,T]$. In plain terms, $\tau$ corresponds to a random event happening before or at time $t$ that can be inferred by the information in the filtration $\mathcal{F}(t)_W$. Here we are interested in the event where $\widehat{\Pi}_Y(t) = Y(t)$. 
 
+We recall the expression (1.0) takes for constant paramters and under the assumptions that the stock price follows a geometric Brownian motion:
 
+$$
+\Pi_Y(t) = \widetilde{\mathbb{E}} [ (e^{-r\tau} g( S(t) e^{ (r-\frac{1}{2}\sigma^2)\tau } e^{ \sigma(\widetilde{W(T)} - \widetilde{W(t)}) } )   | \mathcal{F}_W(t) ]. \qquad (1.1)
+$$
 
 [^1]: Calogero, S., 2019. Stochastic Calculus Financial Derivatives and PDE’s. Lecture notes for the course MMA711 at Chalmers University of Technology. 
