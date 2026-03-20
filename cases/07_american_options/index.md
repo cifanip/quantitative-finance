@@ -44,7 +44,7 @@ $$
 \widehat{C}(t) & \geq \widetilde{\mathbb{E}} [ (S(T)-K)_+ D(T)/D(t) | \mathcal{F}_W(t) ] \\
 & \geq [ (S(T)-K) D(T)/D(t) | \mathcal{F}_W(t) ] \\
 & =  [ S(T) D(T)/D(t) | \mathcal{F}_W(t) ] - K [ D(T)/D(t) | \mathcal{F}_W(t) ] \\
-& > D(t)^{-1} [ S(T) D(T) | \mathcal{F}_W(t) ] - K
+& > D(t)^{-1} [ S(T) D(T) | \mathcal{F}_W(t) ] - K \\
 & = S(t)-K.
 \end{aligned}
 $$
