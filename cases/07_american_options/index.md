@@ -63,6 +63,12 @@ $$
 \Pi_Y(t,T) = \widetilde{\mathbb{E}} [ (e^{-r(T-t)} g( S(t) e^{ (r-\frac{1}{2}\sigma^2)(T-t) } e^{ \sigma(\widetilde{W(T)} - \widetilde{W(t)}) } )   | \mathcal{F}_W(t) ]. \qquad (1.1)
 $$
 
+For European options the stopping time equals the maturity time $T$. For American options, however, the stoppoing time is the random variable $\tau$ defined earlier. A reasonable definition of American options price is the following:
 
+$$
+\Pi_Y(t,T) = \max\limits_{\tau \in \mathcal{Q}_{t,T}} \widetilde{\mathbb{E}} [ (e^{-r(\tau-t)} g( S(t) e^{ (r-\frac{1}{2}\sigma^2)(\tau-t) } e^{ \sigma(\widetilde{W(\tau)} - \widetilde{W(t)}) } )   | \mathcal{F}_W(t) ], \qquad (1.2)
+$$
+
+where $\mathcal{Q}_{t,T}$ is the set of all possible stopping times $\tau \in [t,T]$. 
 
 [^1]: Calogero, S., 2019. Stochastic Calculus Financial Derivatives and PDE’s. Lecture notes for the course MMA711 at Chalmers University of Technology. 
