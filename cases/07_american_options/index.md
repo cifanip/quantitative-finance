@@ -60,7 +60,7 @@ For put American options the picture is different. A formal definition of **stop
 We recall that the expression (1.0) takes for constant parameters and under the assumptions that the stock price follows a geometric Brownian motion:
 
 $$
-\Pi_Y(t,T) = \widetilde{\mathbb{E}} [ (e^{-r(T-t)} g( S(t) e^{ (r-\frac{1}{2}\sigma^2)(T-t) } e^{ \sigma(\widetilde{W(T)} - \widetilde{W(t)}) } )   | \mathcal{F}_W(t) ]. \qquad (1.1)
+\Pi_Y(t,T) = \widetilde{\mathbb{E}} [ (e^{-r(T-t)} g( S(t) e^{ (r-\frac{1}{2}\sigma^2)(T-t) } e^{ \sigma(\widetilde{W}(T) - \widetilde{W}(t)) } )   | \mathcal{F}_W(t) ]. \qquad (1.1)
 $$
 
 For European options the stopping time equals the maturity time $T$. For American options, however, the stopping time is the random variable $\tau$ defined earlier. A reasonable definition of American put options price is the following:
