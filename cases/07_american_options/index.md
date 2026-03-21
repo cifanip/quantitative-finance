@@ -31,7 +31,7 @@ For an American option we thus have always two choices: exercise and obtain the 
 
 Assume that we are under condition 1., i.e. $\widehat{\Pi}_Y(t) \geq \Pi_Y(t)$ for all $t \in [0,T]$. We denote by $\widehat{C}(t)$ the price an American call option. Then $\widehat{C}(t) > Y(t)$ for all $t \in [0,T)$. Thus, it is never optional to exercise prior to maturity $T$.
 
-The proof is rather simple. If $S(t)<K$, since $\widehat{C}(t) \geq 0$, the clain in trivial. Is then sufficient to look at the case $S(t)-K \geq 0$. Recall from [notes on risk-neutral probability measure](https://github.com/cifanip/quantitative-finance/tree/main/cases/01_risk_neutral_probability_measure/)) that the price of European call option is 
+The proof is rather simple. If $S(t)<K$, since $\widehat{C}(t) \geq 0$, the clain in trivial. Is then sufficient to look at the case $S(t)-K \geq 0$. Recall from [notes on risk-neutral probability measure](https://github.com/cifanip/quantitative-finance/tree/main/cases/01_risk_neutral_probability_measure/) that the price of European call option is 
 
 $$
 \Pi_Y(t) = \widetilde{\mathbb{E}} [ (S(T)-K)_+ D(T)/D(t) | \mathcal{F}_W(t) ]. \qquad (1.0)
